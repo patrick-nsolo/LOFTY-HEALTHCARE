@@ -30,3 +30,9 @@
 main .hero-images{
     margin-left: 50px;
 }
+.wrapper{
+    display: flex;
+}
+.hero-text{
+    align-items: center;
+}
