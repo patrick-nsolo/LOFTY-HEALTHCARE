@@ -14,4 +14,19 @@
 }
 .image{
     height:300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nurse-and-patient{
+    margin-top: 50px;
+}
+.healthy-family{
+    margin-top: 100px;
+    margin-left: -30px;
+}
+.medical-worker{
+    margin-top: -100px;
+    margin-left: 30px;
+}
+main .hero-images{
+    margin-left: 50px;
 }
