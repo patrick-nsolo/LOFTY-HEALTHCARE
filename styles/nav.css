@@ -34,7 +34,7 @@
     transform: scale(1.1);
 }
 .nav-menu li button{
-    height: 25px;
+    height: 40px;
     width: 100px;
     background: var(--medicalblue);
     border: 0;
