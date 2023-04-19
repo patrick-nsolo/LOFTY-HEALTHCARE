@@ -1,22 +1,51 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
+.wrapper{
+    background: var(--meicalblue);
+    height:200px;
+    
+}
 .navbar{
+    height:100px;
     width:100%;
     display:flex;
     justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.wrapper{
+    position: relative;   
+}
+.nav-wrapper{
+    display:flex;  
+    justify-content: space-between; 
+    align-items: center;
+    
 }
 .nav-menu{
-    display: inline-flex;
+    display: flex;
     list-style: none;
-    justify-content: space-between;
 }
 .nav-menu li a{
     padding:20px;
     
 }
-nav button span {
-    background-color: #9be5aa;
+.hamburger{
+    background-color:var(--white) ;
+    border: 0 ;   
+}
+.hamburger span{
+    background: var(--medicalgreen);
     display: block;
-    height: 2px;
+    height: 4px;
     margin: 5px 0;
-    width: 25px;
-  }
+    width: 30px;
+}
+.hamburger span:first-child{
+    transform: rotate(45deg) translate(5px, 5px);
+    
+}
+.hamburger span:nth-child(2){
+    opacity: 0;
+}
+.hamburger span:last-child{
+    transform: rotate(-45deg) translate(5px, -5px);
+}

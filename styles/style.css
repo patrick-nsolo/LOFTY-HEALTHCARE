@@ -11,13 +11,14 @@ img{
     block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/ 
 }
 :root{
+    --medicalgreen:rgb(155, 229, 170);
+    --medicalblue:rgb(32, 160, 216);
+    --white:hsl(0, 0%, 100%);
+    /*Other Color Variants*/
     --red:hsl(10, 86%, 49%);
     --black:hsl(0, 0%, 12%);
     --grey:hsl(0, 0%, 38%);
     --darkgrey:hsl(0, 0%, 24%);
-    --white:hsl(0, 0%, 100%);
-    --green:rgb(7, 181, 39);
     --blue:rgb(29, 14, 126);
-    --lightblue:rgb(0, 213, 255);
     --coldblue:rgb(11, 1, 49);
 }
