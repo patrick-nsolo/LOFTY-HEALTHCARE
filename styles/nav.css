@@ -76,6 +76,15 @@
     align-items: center;
     justify-content: flex-start;
 }
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top:50px;
+    left:0;
+    height: calc(100vh -50vh);
+    width:100%;
+
+}
 @media screen and (max-width:1200px){
     .nav-menu{
         display:none;
