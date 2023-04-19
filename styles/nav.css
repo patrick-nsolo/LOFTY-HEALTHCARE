@@ -52,6 +52,17 @@
 .hamburger{
     display:none;
 }
+.hamburger div{
+    width: 35px;
+    height: 3px;
+    background-color: var(--medicalblue);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.open .bar-one{
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
 @media screen and (max-width:1200px){
     .nav-menu{
         display:none;
