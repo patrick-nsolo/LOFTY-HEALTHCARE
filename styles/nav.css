@@ -1,8 +1,8 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
 .wrapper{
-    background: var(--meicalblue);
+    background: var(--medcalblue);
     height:200px;
-    
+    position: relative; 
 }
 .navbar{
     height:100px;
@@ -10,9 +10,6 @@
     display:flex;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-.wrapper{
-    position: relative;   
 }
 .nav-wrapper{
     display:flex;  
@@ -24,8 +21,17 @@
     list-style: none;
 }
 .nav-menu li{
-    padding:2rem;
-    
+    padding:1rem;
+    margin-top: 25px; 
+    color: var(--medicalblue);   
+}
+.nav-menu li button{
+    height: 25px;
+    width: 100px;
+    background: var(--medicalblue);
+    border: 0;
+    border-radius: 3px;
+    color: var(--white);
 }
 .hamburger{
     background-color:var(--white) ;
@@ -40,12 +46,11 @@
     width: 30px;
 }
 .hamburger span:first-child{
-    transform: rotate(45deg) translate(5px, 5px);
-    
+    transform: rotate(45deg) translate(5px, 5px);    
 }
 .hamburger span:nth-child(2){
     opacity: 0;
 }
 .hamburger span:last-child{
     transform: rotate(-45deg) translate(5px, -5px);
-}
+}*/
