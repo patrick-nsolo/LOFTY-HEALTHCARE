@@ -50,7 +50,7 @@
     transform: scale(1.05);
 }
 .hamburger{
-    display:none;
+    display:non;
 }
 .hamburger div{
     width: 35px;
