@@ -25,6 +25,10 @@
     margin-top: 25px; 
     color: var(--medicalblue);   
 }
+.nav-menu li:hover{
+    color:var(--blue);
+    cursor: pointer;
+}
 .nav-menu li button{
     height: 25px;
     width: 100px;
