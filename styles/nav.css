@@ -1,0 +1,15 @@
+/*NAVIGATION STARTS HERE. BOOTSTRAP*/
+.navbar{
+    background: #9be5aa; 
+    height: 100px;
+}
+.navbar-nav li{
+    margin-right: 30px;
+}
+.navbar-nav li a{
+    color:white
+}
+.navbar-nav li a:hover{
+    color:rgb(9, 80, 24);
+    cursor:pointer;
+}
