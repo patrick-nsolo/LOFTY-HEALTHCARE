@@ -1,1 +1,10 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+}
