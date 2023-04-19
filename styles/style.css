@@ -32,7 +32,9 @@ main .hero-images{
 }
 .wrapper{
     display: flex;
+    width:1080px;
 }
-.hero-text{
-    align-items: center;
+.hero-texts{
+    margin-top: 200px;
+    margin-left: 50px;
 }
