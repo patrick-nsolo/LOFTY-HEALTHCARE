@@ -1,5 +1,6 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
 .navbar{
+    width:100%;
     display:flex;
     justify-content: space-between;
 }
@@ -8,3 +9,14 @@
     list-style: none;
     justify-content: space-between;
 }
+.nav-menu li a{
+    padding:20px;
+    
+}
+nav button span {
+    background-color: #9be5aa;
+    display: block;
+    height: 2px;
+    margin: 5px 0;
+    width: 25px;
+  }
