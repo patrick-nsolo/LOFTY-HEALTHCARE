@@ -52,7 +52,7 @@
 .hamburger{
     display:none;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:1200px){
     .nav-menu{
         display:none;
     }
