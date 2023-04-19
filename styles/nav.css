@@ -23,7 +23,8 @@
 .nav-menu li{
     padding:1rem;
     margin-top: 25px; 
-    color: var(--medicalblue);   
+    color: var(--medicalblue); 
+    transition: 0.5s ease-in-out;  
 }
 .nav-menu li:hover{
     color:var(--blue);
@@ -36,6 +37,13 @@
     border: 0;
     border-radius: 3px;
     color: var(--white);
+    margin-top: -3px;
+    transition: 0.5s ease-in-out;
+}
+.nav-menu li button:hover{
+    background: var(--blue);
+    color: var(--medicalblue);
+    transform: scale(1.05);
 }
 .hamburger{
     background-color:var(--white) ;
