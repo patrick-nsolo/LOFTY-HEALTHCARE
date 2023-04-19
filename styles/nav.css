@@ -18,19 +18,19 @@
     display:flex;  
     justify-content: space-between; 
     align-items: center;
-    
 }
 .nav-menu{
     display: flex;
     list-style: none;
 }
-.nav-menu li a{
-    padding:20px;
+.nav-menu li{
+    padding:2rem;
     
 }
 .hamburger{
     background-color:var(--white) ;
-    border: 0 ;   
+    border: 0 ; 
+    display: none;  
 }
 .hamburger span{
     background: var(--medicalgreen);
