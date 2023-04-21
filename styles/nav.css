@@ -61,9 +61,6 @@
     background: var(--medicalblue);
     width: var(--nav-width);
     height: 100vh;
-    /*display: flex;
-    flex-direction: column;
-    align-items: stretch;*/
 }
 .nav-link{
     display:block;
@@ -71,6 +68,9 @@
     padding:24px;
     text-decoration: none;
     color: var(--white);
+}
+.nav-link:not(:last-child){
+    border-bottom: 1px solid var(--white);
 }
 /*.dropdown-menu a,.dropdown-menu button{
     padding:8px 12px;
