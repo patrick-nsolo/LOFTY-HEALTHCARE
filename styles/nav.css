@@ -57,7 +57,13 @@
     font-size: 3rem;
 }
 .dropdown-menu{
-    float: right;
+    --nav-width:300px;
+    flot: right;
+    position: fixed;
+    top:0;
+    right:0;
+    width: var(--nav-width);
+    height:100vh;
     
 }
 @media screen and (max-width:1200px){
