@@ -25,6 +25,9 @@
 .nav-menu li button{
     height: 30px;
     width: 70px;
+    background-color: var(--medicalblue);
+    border: 0;
+    border-radius: 3px;
 }
 .burger{
     width:50px;
