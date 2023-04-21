@@ -22,3 +22,7 @@ img{
     --blue:rgb(29, 14, 126);
     --coldblue:rgb(11, 1, 49);
 }
+
+.hero-wrapper{
+    position: relative;
+}

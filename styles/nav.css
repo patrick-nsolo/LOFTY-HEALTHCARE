@@ -31,12 +31,13 @@
     height: 50px;
     margin-top: 10px;
     background-color: var(--medicalblue);
+    color:var(--white);
     border: 0;
     border-radius: 3px;
 }
 .dropdown-menu{
     float: right;
-    position: relative;
+    position: absolute;
 }
 @media screen and (max-width:1200px){
     .nav-menu{
