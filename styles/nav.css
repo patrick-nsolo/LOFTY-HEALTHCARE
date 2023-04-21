@@ -39,7 +39,7 @@
     background-color: var(--deepmedicalblue);
     color:var(--white);
 }
-.burger{
+.btn{
     width:var(--top-row-right);
     height: 100%;
     display: flex;
