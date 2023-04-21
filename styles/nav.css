@@ -12,12 +12,14 @@
 }
 .nav-menu{
     display:flex;
-    list-style: none;
-    
+    list-style: none;    
 }
 .nav-menu li {
     text-decoration: none;
     padding:30px;
+}
+.nav-menu li a{
+    text-decoration: none;
 }
 
 @media screen and (max-width:1200px){
