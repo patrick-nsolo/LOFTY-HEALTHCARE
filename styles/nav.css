@@ -57,6 +57,9 @@
     display: flex;
     flex-direction: column;
 }
+.dropdown-menu a,.dropdown-menu button{
+    padding:8px 12px;
+}
 @media screen and (max-width:1200px){
     .nav-menu{
         display:none;
