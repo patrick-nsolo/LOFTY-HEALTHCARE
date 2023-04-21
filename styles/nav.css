@@ -62,7 +62,17 @@
     text-align: center;
     border:none;
     background-color: transparent;
+    font-size:1rem;
+    cursor: pointer;
+    margin-top: 10px;
 }
+.dropdown-menu a:hover,.dropdown-menu button:hover{
+    background-color: var(--medicalblue);
+    color:var(--white);
+}
+
+
+
 @media screen and (max-width:1200px){
     .nav-menu{
         display:none;
