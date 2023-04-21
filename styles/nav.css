@@ -65,7 +65,9 @@
     flex-direction: column;
     align-items: stretch;*/
 }
-
+.nav-link{
+    display:block;
+}
 /*.dropdown-menu a,.dropdown-menu button{
     padding:8px 12px;
     text-align: center;
