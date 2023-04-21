@@ -13,10 +13,13 @@
 .nav-menu{
     display:flex;
     list-style: none;
+    
 }
-.nav-menu li a{
+.nav-menu li {
     text-decoration: none;
+    padding:30px;
 }
+
 @media screen and (max-width:1200px){
     .nav-menu{
         diplay:none;
