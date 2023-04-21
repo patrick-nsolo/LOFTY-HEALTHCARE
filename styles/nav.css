@@ -31,10 +31,18 @@
     transition: all 0.5s ease-in-out;
       
 }
+.nav-menu li a{
+    text-decoration: none;
+    color: var(--medicalblue);
+}
+.nav-menu li a:hover{
+   
+}
 .nav-menu li:hover,.nav-menu li:focus{
     color:var(--blue);
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    
 }
 .nav-menu li button{
     height: 40px;
