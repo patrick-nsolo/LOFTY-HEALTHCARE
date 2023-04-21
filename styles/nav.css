@@ -1,8 +1,5 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
-.wraper{
-    width:100%;
-    height:100%;
-}
+
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -36,6 +33,10 @@
     background-color: var(--medicalblue);
     border: 0;
     border-radius: 3px;
+}
+.dropdown-menu{
+    float: right;
+    position: relative;
 }
 @media screen and (max-width:1200px){
     .nav-menu{
