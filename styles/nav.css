@@ -49,10 +49,9 @@
     align-items: center;
     justify-content: center;
     background:none;
+    border:none;
     color:var(--medicalblue);
-    
-    
-   
+    margin-top: 10px;   
 }
 .material-icons{
     font-size: 3rem;
