@@ -1,5 +1,11 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
-
+.wrapper{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:var(--top-row-right);
+}
 .navbar{
     display:flex;
     justify-content: space-between;
