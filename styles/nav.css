@@ -61,6 +61,7 @@
     padding:8px 12px;
     text-align: center;
     border:none;
+    background-color: transparent;
 }
 @media screen and (max-width:1200px){
     .nav-menu{
