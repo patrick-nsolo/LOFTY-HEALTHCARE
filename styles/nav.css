@@ -87,13 +87,7 @@
     justify-content: flex-start;
 }
 .dropdown-menu{
-    display: nne;
-    position: absolut;
-    top:50px;
-    left:0;
-    height: calc(100vh -50vh);
-    width:100%;
-
+    margin-top: 50px;
 }
 @media screen and (max-width:1200px){
     .nav-menu{
