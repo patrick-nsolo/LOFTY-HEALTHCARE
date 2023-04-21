@@ -60,10 +60,12 @@
     right:0;
     background: var(--medicalblue);
     width: var(--nav-width);
+    height: 100vh;
     /*display: flex;
     flex-direction: column;
     align-items: stretch;*/
 }
+
 /*.dropdown-menu a,.dropdown-menu button{
     padding:8px 12px;
     text-align: center;
