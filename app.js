@@ -1,3 +1,1 @@
-function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
-}
+const navMenu = document.querySelector(".dropdown-menu");
