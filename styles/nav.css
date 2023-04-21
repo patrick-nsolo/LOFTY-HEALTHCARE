@@ -1,5 +1,11 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
+.wrapper{
+    width:100%;
 
+}
+.logo{
+    
+}
 @media screen and (max-width:1200px){
     .nav-menu{
         diplay:none;
