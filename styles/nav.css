@@ -67,6 +67,10 @@
 }
 .nav-link{
     display:block;
+    font-size: 1.2rem;
+    padding:24px;
+    text-decoration: none;
+    color: var(--white);
 }
 /*.dropdown-menu a,.dropdown-menu button{
     padding:8px 12px;
