@@ -77,7 +77,7 @@
     transition: transform 0.5s;
 }
 .dropdown-open{
-    transform:translateX(0);
+    transform:translateX(1);
 }
 .nav-link{
     display:block;
