@@ -13,6 +13,7 @@ img{
 :root{
     --medicalgreen:rgb(155, 229, 170);
     --medicalblue:rgb(32, 160, 216);
+    --deepmedicalblue:rgb(10, 52, 70);
     --white:hsl(0, 0%, 100%);
     /*Other Color Variants*/
     --red:hsl(10, 86%, 49%);
