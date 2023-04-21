@@ -62,6 +62,9 @@
     height:100vh;
     background: rgba(0, 0, 0, 0.2);
 }
+.overlay-open{
+    display:block;
+}
 .dropdown-menu{
     --nav-width:300px;
     position: fixed;
@@ -74,7 +77,7 @@
     transition: transform 0.5s;
 }
 .dropdown-open{
-    transfrm:translateX(0);
+    transform:translateX(0);
 }
 .nav-link{
     display:block;
