@@ -1,8 +1,7 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
 .wrapper{
-    background: var(--medcalblue);
     height:200px;
-    position: relative; 
+    position: relativ; 
 }
 .nav-wrapper{
     display:flex;  
@@ -88,7 +87,7 @@
     justify-content: flex-start;
 }
 .dropdown-menu{
-    display: none;
+    display: nne;
     position: absolute;
     top:50px;
     left:0;
