@@ -1,5 +1,5 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
-.wrapper{
+/*.wrapper{
     height:200px;
     position: relativ; 
 }
@@ -59,7 +59,7 @@
     color: var(--medicalblue);
     transform: scale(1.05);
 }
-
+*/
 @media screen and (max-width:1200px){
     .nav-menu{
         diplay:none;
