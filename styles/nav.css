@@ -1,8 +1,5 @@
 /*NAVIGATION STARTS HERE. VANILLA JS*/
 .wrapper{
-    position: fixed;
-    top:0;
-    left:0;
     width:100%;
     height:var(--top-row-right);
 }
@@ -57,14 +54,8 @@
     font-size: 3rem;
 }
 .dropdown-menu{
-    --nav-width:300px;
-    flot: right;
-    position: fixed;
-    top:0;
-    right:0;
-    width: var(--nav-width);
-    height:100vh;
-    
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (max-width:1200px){
     .nav-menu{
