@@ -71,8 +71,7 @@
     color: var(--white);
 }
 .nav-link:hover{
-    background: var(--deepmedicalblue);
-    
+    background: var(--deepmedicalblue);  
 }
 .nav-link:not(:last-child){
     border-bottom: 1px solid #b9b9b9;
