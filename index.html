@@ -16,7 +16,7 @@
     <header class="wrapper">
         <nav class="navbar">
             <a href="#" title="This link takes you to lofty logo home page"><img class="logo" src="images/lofty-logo.png" alt="lofty-healthcare"></a>
-            <ul class="nav-menu">
+            <!--<ul class="nav-menu">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Our Clients</a></li>
@@ -24,24 +24,25 @@
                 <li><a href="#">Contact</a></li>
                 <li><button>Login</button></li>
                 <li><button>Register</button></li>
-            </ul>
+            </ul>-->
             <button type="button" class="btn">
                 <span class="material-icons">
                     menu
                 </span> 
             </button>
+            <div class="overlay overlay-open"></div>
+            <nav class="dropdown-menu dropdown-open">
+                <a href="#" class="nav-link">About Us</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">Our Clients</a>
+                <a href="#" class="nav-link">Our Team</a>
+                <a href="#" class="nav-link">Contact</a>
+                <button>Login</button><br>
+                <button>Register</button>
+            </nav>
         </nav>
     </header>
-    <div class="overlay overlay-open"></div>
-        <nav class="dropdown-menu dropdown-open">
-            <a href="#" class="nav-link">About Us</a>
-            <a href="#" class="nav-link">Services</a>
-            <a href="#" class="nav-link">Our Clients</a>
-            <a href="#" class="nav-link">Our Team</a>
-            <a href="#" class="nav-link">Contact</a>
-            <button>Login</button><br>
-            <button>Register</button>
-        </nav>                          
+                                 
     <main class="hero-wrapper">
         <div class="hero-image">
             <img class="image nurse-and-patient" src="images/hero-image.jpg">
