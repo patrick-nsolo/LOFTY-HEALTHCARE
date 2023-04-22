@@ -1,5 +1,5 @@
 const dropDownMenu = document.querySelector(".dropdown-menu");
-const overLayer = document.querySelector(".overlay");
+const overLay = document.querySelector(".overlay");
 const navBtn = document.querySelector(".btn");
 
 navBtn.addEventListener("click", () =>{
