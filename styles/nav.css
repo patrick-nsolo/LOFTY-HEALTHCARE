@@ -42,7 +42,7 @@
 .btn{
     width:var(--top-row-right);
     height: 100%;
-    display: none;
+    display: one;
     align-items: center;
     justify-content: center;
     background:none;
@@ -99,7 +99,7 @@
 
 @media screen and (max-width:1200px){
     .nav-menu{
-        display:none;
+        displa:none;
     }
     .btn{
         display:block;
