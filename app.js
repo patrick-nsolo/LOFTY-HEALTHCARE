@@ -1,8 +1,8 @@
-const dropDown = document.querySelector(".dropdown-menu");
-const overLay = document.querySelector(".overlay");
-const btn = document.querySelector(".btn");
+const dropDownMenu = document.querySelector(".dropdown-menu");
+const overLayer = document.querySelector(".overlay");
+const navBtn = document.querySelector(".btn");
 
-btn.addEventListener("click", () =>{
-    dropDown.classList.add("dropdown-open");
-    overLay.classList.add("overlay-open");
+navBtn.addEventListener("click", () =>{
+    dropDownMenu.classList.add("dropdown-open");
+    overLayer.classList.add("overlay-open");
 });

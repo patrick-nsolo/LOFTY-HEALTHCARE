@@ -42,7 +42,7 @@
 .btn{
     width:var(--top-row-right);
     height: 100%;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     background:none;
@@ -63,7 +63,7 @@
     background: rgba(0, 0, 0, 0.2);
 }
 .overlay-open{
-    display:block;
+    display:none;
 }
 .dropdown-menu{
     --nav-width:300px;
@@ -101,5 +101,7 @@
     .nav-menu{
         display:none;
     }
-
+    .btn{
+        display:block;
+    }
 }
