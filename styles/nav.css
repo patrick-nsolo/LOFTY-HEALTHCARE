@@ -68,16 +68,26 @@
     .menu{
         position: fixed;
         left:-100%;
-        top:70px;
+        top:100px;
         gap:0;
         flex-direction: column;
-        background-color: var(--lightorange);
+        background-color: var(--medicalblue);
         width: 100%;
         text-align:center;
         transition: 0.5s;
     }
+    .nav-item a{
+        transition:0.5s ease-out;
+        color:var(--white);
+    }
+    .nav-item a:hover{
+        background: #ffffff ;
+    }
     .nav-item{
         margin: 16px 0;
+    }
+    .nav-item button{
+        background-color: var(--deepmedicalblue);
     }
     .menu.active{
         left:0;
