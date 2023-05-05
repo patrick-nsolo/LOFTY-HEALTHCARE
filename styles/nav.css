@@ -31,10 +31,10 @@
 .nav-item a:hover{
     color:var(--blue);
 }
-.nav-item button{
-    width:100px;
-    height:40px;
+.nav-item .button{
+    padding: 10px 20px;
     background-color: var(--medicalblue);
+    text-decoration: none;
     border: 0;
     color:var(--white);
 }
