@@ -1,0 +1,19 @@
+@media(min-width:1024px){
+    .hero-wrapper{
+        display: flex;
+    }
+    .hero-image img{
+        height:500px;
+    }
+    .hero-texts .button{
+        padding: 10px 20px;
+        background-color: var(--medicalblue);
+        text-decoration: none;
+        border: 0;
+        color:var(--white);
+        text-align: center;
+        position: absolute;
+        left:37%;
+        margin-top: 10px;
+    }
+}

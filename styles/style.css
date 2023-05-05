@@ -21,9 +21,31 @@ img{
     --darkgrey:hsl(0, 0%, 24%);
     --blue:rgb(29, 14, 126);
     --coldblue:rgb(11, 1, 49);
-
     --top-row-right:60px;
 }
-.hero-image{
+.hero-wrapper{
+    margin-top: 50px;
+}
+.hero-texts{
+    padding:20px;
+    line-height:25px;
+}
+.hero-texts h1{
+    text-align: center;
+    color:var(--medicalblue);
+}
+.hero-texts p{
+    text-align: center;
+    margin-top: 10px;
+}
+.hero-texts .button{
+    padding: 10px 20px;
+    background-color: var(--medicalblue);
+    text-decoration: none;
+    border: 0;
+    color:var(--white);
+    text-align: center;
+    position: absolute;
+    left:37%;
     margin-top: 10px;
 }
