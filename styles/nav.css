@@ -86,7 +86,7 @@
     .nav-item{
         margin: 16px 0;
     }
-    .nav-item button{
+    .nav-item .button{
         background-color: var(--deepmedicalblue);
     }
     .menu.active{
