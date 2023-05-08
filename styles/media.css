@@ -26,4 +26,11 @@
         top:70%;
         right:22%;
     }
+    .media{
+        display: flex;
+        justify-content: space-between;
+    }
+    .media li{
+        list-style: none;
+    }
 }
