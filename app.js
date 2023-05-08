@@ -16,7 +16,10 @@ document.querySelectorAll(".nav-link").forEach(n =>
 var button = document.querySelector('.button');
 var loginOverlay = document.querySelector('.login-overlay');
 
-button.addEventListener
+button.addEventListener('click', function(event){
+    event.preventDefault();
+    loginOverlay.style.display= 'block';
+});
 
 
 
