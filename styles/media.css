@@ -32,7 +32,7 @@
     }
     .socials{
         position: absolute;
-        top:70%;
+        top:65%;
         left:60;  
     }
     .socials h5{color:var(--medicalblue);}
