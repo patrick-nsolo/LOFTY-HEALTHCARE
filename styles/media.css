@@ -30,6 +30,9 @@
         position: absolute;
         left:59%;  
     }
+    .hero-texts .button:hover{
+        
+    }
     .socials{
         position: absolute;
         top:65%;
@@ -53,7 +56,7 @@
         
     }
     .media .bx:hover{
-        color:var(--medicalblue);
+        color:var(--blue);
         transform: scale(1.5);
     }
 
