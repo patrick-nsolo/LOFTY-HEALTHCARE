@@ -14,9 +14,14 @@ document.querySelectorAll(".nav-link").forEach(n =>
 
 
 var button = document.querySelector('.button');
+var join = document.querySelector('.join-btn');
 var loginOverlay = document.querySelector('.login-overlay');
 
 button.addEventListener('click', function(event){
+    event.preventDefault();
+    loginOverlay.style.display= 'block';
+});
+join.addEventListener('click', function(event){
     event.preventDefault();
     loginOverlay.style.display= 'block';
 });
