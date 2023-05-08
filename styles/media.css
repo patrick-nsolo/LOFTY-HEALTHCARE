@@ -56,4 +56,14 @@
         color:var(--medicalblue);
         transform: scale(1.5);
     }
+
+    /*Login overlay styling*/
+    .login-box{
+        position:absolute;
+        top: 50%;
+        left: 35%;
+        tranform: translate(-50%,-50%);
+        background-color: var(--medicalblue);
+
+    }
 }
