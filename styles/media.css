@@ -162,8 +162,8 @@
         line-height: 50px;
     }
     .join-btn{
-        left:40%;
-        width:150px;
+        left:45%;
+        position: relative;
         
     }
     .media{
