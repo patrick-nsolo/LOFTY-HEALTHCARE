@@ -23,8 +23,8 @@
     }
     .socials{
         position: absolute;
-        top:70%;
-        right:22%;
+        top:65%;
+        left:72%;
     }
     .media{
         display: flex;
@@ -32,5 +32,8 @@
     }
     .media li{
         list-style: none;
+    }
+    .media .bx{
+        color:var(--medicalblue);
     }
 }
