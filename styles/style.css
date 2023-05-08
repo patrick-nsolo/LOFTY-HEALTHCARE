@@ -45,10 +45,7 @@ img{
     border: 0;
     color:var(--white);
     text-align: center;
-    positin: absolute;
+    position: absolute;
     left:37%;
     margin-top: 10px;
-}
-.socials{
-    position:relative;
 }

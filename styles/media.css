@@ -1,3 +1,4 @@
+/*DESKTOP STYLING*/
 @media(min-width:1024px){
     .hero-wrapper{
         display: flex;
@@ -19,5 +20,10 @@
         position: absolute;
         left:72%;
         margin-top: 10px;
+    }
+    .socials{
+        position: absolute;
+        top:70%;
+        right:22%;
     }
 }
