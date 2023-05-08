@@ -11,3 +11,12 @@ document.querySelectorAll(".nav-link").forEach(n =>
         hamburger.classList.remove("active");
         navMenu.classList.remove("active");
     }))
+
+
+var button = document.querySelector('.button');
+var loginOverlay = document.querySelector('.login-overlay');
+
+button.addEventListener
+
+
+
