@@ -44,7 +44,17 @@ img{
     padding:10px;
     position: absolute;
     left:150px;
+    margin-top:10px;
     text-decoration: none;
     color: var(--white);
+}
+.socials{
+    position: absolute;
+    top:100%;
+    left:60;  
+}
+.login-overlay, .reg-overlay{
+    display: none;
+
 }
 
