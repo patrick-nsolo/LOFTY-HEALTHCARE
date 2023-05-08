@@ -15,6 +15,7 @@ document.querySelectorAll(".nav-link").forEach(n =>
 
 var button = document.querySelector('.button');
 var join = document.querySelector('.join-btn');
+var register = document.querySelector('');
 var loginOverlay = document.querySelector('.login-overlay');
 
 button.addEventListener('click', function(event){
