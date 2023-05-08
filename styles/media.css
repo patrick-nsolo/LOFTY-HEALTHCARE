@@ -122,8 +122,8 @@
         height:100%;
         background-color: rgba(0, 0, 0, 0.7);
     }
-    /*login Form styling*/
-    input{
+    /*registration Form styling*/
+    input, select{
         height:40px;
         width:200px;
         margin-top:20px;

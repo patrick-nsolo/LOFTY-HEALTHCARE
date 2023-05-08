@@ -39,14 +39,12 @@ img{
     text-align: center;
     margin-top: 10px;
 }
-/*.hero-texts .button{
-    padding: 10px 20px;
+.join-btn{
     background-color: var(--medicalblue);
-    text-decoration: none;
-    border: 0;
-    color:var(--white);
-    text-align: center;
+    padding:10px;
     position: absolute;
-    left:37%;
-    margin-top: 10px;
-}/*
+    left:150px;
+    text-decoration: none;
+    color: var(--white);
+}
+
