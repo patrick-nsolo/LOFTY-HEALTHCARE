@@ -39,7 +39,7 @@ img{
     text-align: center;
     margin-top: 10px;
 }
-.hero-texts .button{
+/*.hero-texts .button{
     padding: 10px 20px;
     background-color: var(--medicalblue);
     text-decoration: none;
@@ -49,4 +49,4 @@ img{
     position: absolute;
     left:37%;
     margin-top: 10px;
-}
+}/*
