@@ -62,9 +62,16 @@
         position:absolute;
         top: 40%;
         left: 35%;
-        tranform: translate(-50%,-50%);
+        display: inline-block;
         background-color: var(--medicalblue);
         padding:30px;
-
+    }
+    .login-overlay{
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-color: rgba(0, 0, 0, 0.7);
     }
 }
