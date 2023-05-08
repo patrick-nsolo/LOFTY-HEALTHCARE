@@ -48,10 +48,31 @@ img{
     text-decoration: none;
     color: var(--white);
 }
-.socials{
-    position: absolute;
-    top:100%;
-    left:60;  
+
+@media(max-width:600px){
+    .socials{
+        position: absolute;
+        top:85%;
+        left:28%;     
+    }
+    .media{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .media li{
+        list-style: none;
+    }
+    .media .bx{
+        color:var(--medicalblue);
+        transition: all 1s ease-in-out;
+        
+    }
+    .media .bx:hover{
+        color:var(--blue);
+        transform: scale(1.5);
+    }
+
 }
 .login-overlay, .reg-overlay{
     display: none;
