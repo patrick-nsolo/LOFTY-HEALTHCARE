@@ -27,5 +27,32 @@
 
     
 }
+@media(max-width:600px){
+    .slide-in-left{
+        animation: slide-in-from-left 2s ease-in-out forwards;
+        color: var(--red);
+    }
+    @keyframes slide-in-from-left{
+        from{
+            transform: translateX(-100%);
+        }
+        to{
+            transform: translateX(0%);
+        }
+    }
+    .slide-in-right{
+        animation: slide-in-from-right 1.8s ease-in-out forwards;
+        margin-top: 20px;
+    }
+    @keyframes slide-in-from-right{
+        from{
+            transform: translateX(100%);
+        }
+        to{
+            transform: translateX(0%);
+        }
+    }
+
+}
 
 /*ALL PAGE TRANSITIONS ENDS*/
