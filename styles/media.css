@@ -142,3 +142,33 @@
         color:var(--blue);
     }
 }
+
+@media(min-width:800px) and (max-width:1180px){
+    .socials{
+        position: absolute;
+        top:65%;
+        left:38%;     
+    }
+    .join-btn{
+        left:40%;
+        width:150px;
+    }
+    .media{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .media li{
+        list-style: none;
+    }
+    .media .bx{
+        color:var(--medicalblue);
+        transition: all 1s ease-in-out;
+        
+    }
+    .media .bx:hover{
+        color:var(--blue);
+        transform: scale(1.5);
+    }
+
+}
