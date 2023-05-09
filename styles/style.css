@@ -4,10 +4,16 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'inter', sans-serif;
+
 }
 img{
     max-inline-size: 100%;
     block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/ 
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 :root{
     --medicalgreen:rgb(155, 229, 170);
@@ -124,13 +130,13 @@ button a:hover{
         display: inline-block;
         padding: 0;
     }
-    .image{
+    .iage{
         height: auto;
         width: 100%;
-        display: none;
+        display: noe;
     }
     .hero-image{
-        height: 450px;
+        height: 350px;
     }
     .hero-texts{
         line-height: 40px;
@@ -144,10 +150,6 @@ button a:hover{
     .hero-text{
         font-size: 1.5rem;
         line-height: 30px;
-    }
-    .socials h5{
-        color:var(--medicalblue);
-        font-size: 1.2rem;
     }
     .media-bar{
         display:flex;
