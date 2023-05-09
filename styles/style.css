@@ -91,7 +91,7 @@ button a:hover{
 /*Landing Page Styling END*/
 /*IPAD Styling*/
 /*Landing Page Styling*/
-@media (min-width:800px) and (max-width:1200px){
+@media (min-width:760px) and (max-width:1200px){
     .hero-wrapper{
         display: inline-block;
     }
@@ -108,13 +108,13 @@ button a:hover{
         line-height: 40px;
     }
     .socials h5{
-        color:var(--medicalblue)
+        color:var(--medicalblue);
+        font-size: 1.2rem;
     }
     .media-bar{
         display:flex;
         justify-content: center;
-    }
-    
+    }    
 }
 
 /*Landing Page Styling END*/
