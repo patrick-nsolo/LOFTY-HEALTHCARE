@@ -95,22 +95,22 @@ button a:hover{
     .hero-wrapper{
         display: flex;
         justify-content: space-between;
-        padding:10px 100px;
+        padding:10px 80px;
     }
     .hero-texts{
-        line-height: 20px;
-        margin-top:100px;
+        line-height: 40px;
+        margin-top:45px;
     }
     .hero-image{
-        height:450px;
+        height:400px;
     }
     .hero-head{
         font-size: 2rem;
         color:var(--medicalblue);
     }
     .hero-text{
-        font-size: 1.3rem;
-        line-height: 30px;
+        font-size: 1rem;
+        line-height: 20px;
     }
     button{
         background-color: var(--medicalblue);
