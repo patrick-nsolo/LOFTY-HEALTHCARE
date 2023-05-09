@@ -88,4 +88,74 @@ button a:hover{
     color:var(--blue);
     transform: scale(1.07);
 }
+/*Landing Page Styling END*/
+/*IPAD Styling*/
+/*Landing Page Styling*/
+@media (min-width:800px) and (max-width:1200px){
+    .hero-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding:10px 100px;
+    }
+    .hero-texts{
+        line-height: 20px;
+        margin-top:100px;
+    }
+    .hero-image{
+        height:450px;
+    }
+    .hero-head{
+        font-size: 2rem;
+        color:var(--medicalblue);
+    }
+    .hero-text{
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    button{
+        background-color: var(--medicalblue);
+        padding:15px;
+        margin-top: 20px;
+        border:0;
+        width: 200px;  
+        transition:all 0.5s ease-out;  
+    }
+    button:hover{
+        background-color:var(--blue);
+    }
+    button a{
+        color:var(--white);
+        font-size: 1.2rem;
+        text-decoration: var(--white);
+        transition:all 0.5s ease-out; 
+    }
+    button a:hover{
+        font-weight: bold;
+    }
+    .socials h5{
+        color:var(--medicalblue)
+    }
+    .media-bar{
+        display:flex;
+    }
+    .media{
+        display:flex;
+        justify-content: space-between;
+        gap:20px;
+        margin-top: 20px;
+    }
+    .media li{
+        list-style: none;
+    }
+    .media .bx{
+        color:var(--medicalblue);
+        transition:all 0.5s ease-in-out;
+    }
+    .media .bx:hover{
+        color:var(--blue);
+        transform: scale(1.07);
+    }
+}
 
+/*Landing Page Styling END*/
+/*LOGIN OVERLAY STYLING*/
