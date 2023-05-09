@@ -24,10 +24,11 @@ img{
     --top-row-right:60px;
 }
 /*Desktop Styling*/
+/*Landing Page Styling*/
 .hero-wrapper{
     display: flex;
     justify-content: space-between;
-    padding:10px 50px;
+    padding:10px 100px;
 }
 .hero-texts{
     line-height: 20px;
@@ -42,6 +43,28 @@ img{
 }
 .hero-text{
     font-size: 1.3rem;
-    
+    line-height: 30px;
+}
+button{
+    background-color: var(--medicalblue);
+    padding:15px;
+    margin-top: 20px;
+    border:0;
+    width: 200px;  
+    transition:all 0.5s ease-out;  
+}
+button:hover{
+    background-color:var(--blue);
+}
+button a{
+    color:var(--white);
+    font-size: 1.2rem;
+    text-decoration: var(--white);
+}
+button a:hover{
+    font-weight: bold;
+}
+.socials h5{
+    color:var(--medicalblue)
 }
 
