@@ -88,7 +88,7 @@ button a:hover{
     color:var(--blue);
     transform: scale(1.07);
 }
-/*Landing Page Styling END*/
+/*DESKTOP Landing Page Styling END*/
 /*IPAD Styling*/
 /*Landing Page Styling*/
 @media (min-width:760px) and (max-width:1200px){
@@ -116,6 +116,42 @@ button a:hover{
         justify-content: center;
     }    
 }
-
+/*IPAD Landing Page Styling END*/
+/*MOBILE Styling*/
+/*Landing Page Styling*/
+@media(max-width:760px){
+    .hero-wrapper{
+        display: inline-block;
+    }
+    .image{
+        height: auto;
+        width: 100%;
+        display: none;
+    }
+    .hero-image{
+        height: 450px;
+    }
+    .hero-texts{
+        line-height: 40px;
+        margin-top:20px;
+        text-align: center;
+    }
+    .hero-head{
+        font-size: 3rem;
+        line-height: 50px;
+    }
+    .hero-text{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    .socials h5{
+        color:var(--medicalblue);
+        font-size: 1.2rem;
+    }
+    .media-bar{
+        display:flex;
+        justify-content: center;
+    }    
+}
 /*Landing Page Styling END*/
 /*LOGIN OVERLAY STYLING*/
