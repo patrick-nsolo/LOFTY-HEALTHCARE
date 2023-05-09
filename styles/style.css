@@ -93,16 +93,15 @@ button a:hover{
 /*Landing Page Styling*/
 @media (min-width:800px) and (max-width:1200px){
     .hero-wrapper{
-        display: flex;
-        justify-content: space-between;
-        padding:10px 80px;
+        display: inline-block;
     }
     .hero-texts{
         line-height: 40px;
-        margin-top:45px;
+        margin-top:50px;
+        text-align: center;
     }
     .hero-image{
-        height:400px;
+        height:450px;
     }
     .hero-head{
         font-size: 2rem;
