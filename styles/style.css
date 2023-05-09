@@ -237,7 +237,12 @@ button:hover{
     /*LOGIN OVERLAY STYLING*/
     /*Registration overlay styling*/
     .reg-box{
-        right:25%;    
+        right:15%;  
+        top: 30%;
+        left: 15%;
+        display: inline-block;
+        background-color: var(--white);
+        padding:30px;      
     }
     /*registration overlay styling*/   
 }
