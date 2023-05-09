@@ -122,7 +122,7 @@ button a:hover{
 .reg-box{
     position:absolute;
     top: 40%;
-    left: 25%;
+    left: 22%;
     display: inline-block;
     background-color: var(--white);
     padding:30px;
@@ -195,12 +195,7 @@ button:hover{
     /*LOGIN OVERLAY STYLING*/
     /*Registration overlay styling*/
     .reg-box{
-        position:absolute;
-        top: 40%;
-        right:25%;
-        display: inline-block;
-        background-color: var(--white);
-        padding:30px;
+        right:25%;    
     }
     /*registration overlay styling*/
 }
