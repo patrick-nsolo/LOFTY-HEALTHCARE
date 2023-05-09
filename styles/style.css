@@ -23,5 +23,7 @@ img{
     --coldblue:rgb(11, 1, 49);
     --top-row-right:60px;
 }
-
+.hero-image{
+    height:450px;
+}
 
