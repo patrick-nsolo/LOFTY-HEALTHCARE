@@ -159,6 +159,18 @@ button{
 button:hover{
     color:var(--blue);
 }
+.reg-links{
+    display:flex;
+    justify-content: space-between;
+    max-width: 120px;
+    margin-top: 20px;
+}
+.reg-links li{
+    list-style: none;
+}
+.reg-links li a{
+    font-size:0.7rem;
+}
 /*registration Form styling*/
 /*DESKTOP Landing Page Styling END*/
 /*IPAD Styling*/

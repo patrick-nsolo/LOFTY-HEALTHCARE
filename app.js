@@ -16,11 +16,10 @@ document.querySelectorAll(".nav-link").forEach(n =>
     }))
 
 
-
-    
 var button = document.querySelector('.button');
 var join = document.querySelector('.hero-btn');
 var register = document.querySelector('.reg-btn');
+var regLink = document.querySelector(".reg-link");
 var loginOverlay = document.querySelector('.login-overlay');
 var regOverlay = document.querySelector('.reg-overlay');
 
@@ -35,6 +34,10 @@ join.addEventListener('click', function(event){
 register.addEventListener('click', function(event){
     event.preventDefault();
     regOverlay.style.display= 'block';
+});
+regLink.addEventListener('click',function(event){
+    event.preventDefault();
+    loginOverlay.style.display= 'block';
 });
 
 
