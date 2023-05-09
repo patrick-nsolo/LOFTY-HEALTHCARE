@@ -100,36 +100,12 @@ button a:hover{
         margin-top:50px;
         text-align: center;
     }
-    .hero-image{
-        height:450px;
-    }
     .hero-head{
-        font-size: 2rem;
-        color:var(--medicalblue);
+        font-size: 4rem;
     }
     .hero-text{
-        font-size: 1rem;
-        line-height: 20px;
-    }
-    button{
-        background-color: var(--medicalblue);
-        padding:15px;
-        margin-top: 20px;
-        border:0;
-        width: 200px;  
-        transition:all 0.5s ease-out;  
-    }
-    button:hover{
-        background-color:var(--blue);
-    }
-    button a{
-        color:var(--white);
-        font-size: 1.2rem;
-        text-decoration: var(--white);
-        transition:all 0.5s ease-out; 
-    }
-    button a:hover{
-        font-weight: bold;
+        font-size: 2rem;
+        line-height: 40px;
     }
     .socials h5{
         color:var(--medicalblue)
