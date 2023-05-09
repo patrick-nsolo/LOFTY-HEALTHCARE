@@ -226,6 +226,19 @@ button:hover{
     .media-bar{
         display:flex;
         justify-content: center;
-    }    
+    } 
+    /*LOGIN OVERLAY STYLING (ipad)*/
+    .login-box{
+        top: 30%;
+        left: 12%;
+        right:10%;
+        padding:45px;
+    }
+    /*LOGIN OVERLAY STYLING*/
+    /*Registration overlay styling*/
+    .reg-box{
+        right:25%;    
+    }
+    /*registration overlay styling*/   
 }
 /*Landing Page Styling END*/
