@@ -122,6 +122,7 @@ button a:hover{
 @media(max-width:760px){
     .hero-wrapper{
         display: inline-block;
+        padding: 0;
     }
     .image{
         height: auto;
