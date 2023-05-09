@@ -23,7 +23,18 @@ img{
     --coldblue:rgb(11, 1, 49);
     --top-row-right:60px;
 }
+/*Desktop Styling*/
+.hero-wrapper{
+    display: flex;
+}
 .hero-image{
     height:450px;
+}
+.hero-head{
+    font-size: 3rem;
+    color:var(--medicalblue);
+}
+.hero-text{
+    font-size: 1.5rem;
 }
 
