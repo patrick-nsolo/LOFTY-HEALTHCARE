@@ -301,7 +301,7 @@ button:hover{
 .contact-cards{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 70px;
     gap: 50px;
     text-align: center;   
 }
@@ -321,4 +321,21 @@ button:hover{
 .card p{
     margin-top: 20px;
     line-height: 20px;
+}
+.card .contact-btn{
+    font-size: 1rem;
+}
+.support-btn{
+    margin-top: 50px;
+}
+.contact-reg-btn{
+    margin-top: 50px;
+}
+.message-field{
+    width:400px;
+    height:400px;
+    padding: -100px ;
+}
+.support-form{
+    background-color: var(--medicalblue);
 }
