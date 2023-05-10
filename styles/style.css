@@ -259,6 +259,10 @@ button:hover{
         right:10%;
         padding:45px;
     }
+    .log-links{
+        display:inline-block;
+        line-height: 20px;
+    }
     /*LOGIN OVERLAY STYLING*/
     /*Registration overlay styling*/
     .reg-box{
