@@ -20,7 +20,9 @@ var button = document.querySelector('.button');
 var join = document.querySelector('.hero-btn');
 var register = document.querySelector('.reg-btn');
 var regLink = document.querySelector(".reg-link");
-var cancel = document.querySelector('.cancel')
+var logLink = document.querySelector(".log-link");
+var cancel = document.querySelector('.cancel');
+var logCancel = document.querySelector('.log-cancel');
 var loginOverlay = document.querySelector('.login-overlay');
 var regOverlay = document.querySelector('.reg-overlay');
 
@@ -41,7 +43,17 @@ regLink.addEventListener('click',function(event){
     loginOverlay.style.display= 'block';
     regOverlay.style.display= 'none';
 });
+logLink.addEventListener('click',function(event){
+    event.preventDefault();
+    loginOverlay.style.display= 'none';
+    regOverlay.style.display= 'block';
+});
 cancel.addEventListener('click',function(event){
+    event.preventDefault();
+    loginOverlay.style.display= 'none';
+    regOverlay.style.display= 'none';
+});
+logCancel.addEventListener('click',function(event){
     event.preventDefault();
     loginOverlay.style.display= 'none';
     regOverlay.style.display= 'none';
