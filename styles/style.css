@@ -170,7 +170,8 @@ button{
     transition:0.5s ease-out;
 }
 button:hover{
-    color:var(--blue);
+    color:var(--white);
+    cursor: pointer;
 }
 .reg-links{
     display:flex;
