@@ -31,7 +31,7 @@ body{
     --top-row-right:60px;
 }
 /*Desktop Styling*/
-/*Landing Page Styling*/
+/*LANDING PAGE STYLING*/
 .hero-wrapper{
     display: flex;
     justify-content: space-between;
@@ -274,3 +274,20 @@ button:hover{
     /*registration overlay styling*/   
 }
 /*Landing Page Styling END*/
+
+
+/*CONTACT PAGE STYLING (Desktop)*/
+.contact{
+    justify-content: center;
+    display: flex;
+}
+.contact-hero{
+    width: 90%;
+    max-width: 100%;
+    height:70vh;
+    text-align: center;
+}
+.contact-cards{
+    display: flex;
+    justify-content: center;
+}
