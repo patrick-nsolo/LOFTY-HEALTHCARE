@@ -282,10 +282,18 @@ button:hover{
     display: flex;
 }
 .contact-hero{
-    width: 85%;
+    width: 80%;
     max-width: 100%;
     height:70vh;
     text-align: center;
+}
+.contact-message{
+    text-align: center;
+    margin-top:50px;
+}
+.contact-message h1{
+    font-size: 2rem;
+    color: var(--white);
 }
 .contact-cards{
     display: flex;
