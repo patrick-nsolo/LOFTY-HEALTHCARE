@@ -38,6 +38,10 @@
     border: 0;
     color:var(--white);
 }
+.nav-item .button:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
 .hamburger{
     display:none;
     cursor: pointer;

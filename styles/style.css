@@ -70,9 +70,6 @@ button a{
     text-decoration: var(--white);
     transition:all 0.5s ease-out; 
 }
-button a:hover{
-    font-weight: bold;
-}
 .socials h5{
     color:var(--medicalblue)
 }
