@@ -333,8 +333,13 @@ button:hover{
 }
 .message-field{
     width:400px;
-    height:400px;
+    height:200px;
     padding: -100px ;
+}
+.support-form{
+    display: flex;
+    justify-content: center;
+    padding:10px 50px;
 }
 .support-form{
     background-color: var(--medicalblue);
