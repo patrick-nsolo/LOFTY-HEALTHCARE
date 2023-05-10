@@ -171,6 +171,19 @@ button:hover{
 .reg-links li a{
     font-size:0.7rem;
 }
+.log-links{
+    display:flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-top: 20px;
+}
+.log-links li{
+    list-style: none;
+    font-size:0.7rem;
+}
+.log-links li a{
+    font-size:0.7rem ;
+}
 /*registration Form styling*/
 /*DESKTOP Landing Page Styling END*/
 /*IPAD Styling*/
