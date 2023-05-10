@@ -302,4 +302,15 @@ button:hover{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    gap: 50px;
+    text-align: center;   
+}
+.card{
+    width: 300px;
+    padding:50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card .bx{
+    color:var(--medicalblue);
+    font-size: 2rem;
 }
