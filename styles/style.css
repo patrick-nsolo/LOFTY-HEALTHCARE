@@ -24,7 +24,7 @@ body{
     /*Other Color Variants*/
     --red:hsl(10, 86%, 49%);
     --black:hsl(0, 0%, 12%);
-    --grey:hsl(0, 0%, 38%);
+    --grey:hsl(0, 0%, 83%);
     --darkgrey:hsl(0, 0%, 24%);
     --blue:rgb(29, 14, 126);
     --coldblue:rgb(11, 1, 49);
@@ -357,15 +357,12 @@ button:hover{
 .support-form{
     display: flex;
     justify-content: center;
-    padding:10px 50px;
+    padding:50px;
     gap:200px;
 }
 #support-form{
     background-color: var(--medicalblue);
     margin-top: 100px;
-}
-.support-form{
-    padding:50px;
 }
 .support-form h2{
     color:var(--white);
@@ -389,16 +386,19 @@ button:hover{
 }
 #sales-form{
     background-color: var(--grey);
-    margin-top: 100px;
+    
 }
 .sales-form{
+    display: flex;
+    justify-content: center;
     padding:50px;
+    gap:200px;
 }
-.support-form h2{
+.sales-form h2{
     color:var(--white);
     font-size: 2.2rem;
 }
-.support-form p{
+.sales-form p{
     color: var(--white);
 }
 .spprt-btn{
@@ -409,7 +409,7 @@ button:hover{
     padding: 70px;
     margin-top: 50px;
 }
-.support-form-details ul li{
+.sales-form-details ul li{
     list-style: none;
     text-align: center;
     color:var(--white);
