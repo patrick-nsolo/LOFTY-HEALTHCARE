@@ -351,7 +351,7 @@ button:hover{
 .message-field{
     width:400px;
     height:200px;
-    padding: -100px ;
+    margin-top: 30px;
 }
 .support-form{
     display: flex;
