@@ -374,6 +374,10 @@ button:hover{
 .spprt-btn{
     background: var(--blue);
     width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+.spprt-btn:hover{
+    font-weight: bold;
 }
 .support-form-details{
     padding: 70px;
