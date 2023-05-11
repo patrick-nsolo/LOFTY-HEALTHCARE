@@ -377,9 +377,6 @@ button:hover{
     height:50px;
     transition: all 0.5s ease-in-out;
 }
-.spprt-btn:hover{
-    
-}
 .support-form-details{
     padding: 70px;
     margin-top: 50px;
@@ -390,8 +387,7 @@ button:hover{
     color:var(--black);
 }
 #sales-form{
-    background-color: var(--grey);
-    
+    background-color: var(--grey);   
 }
 .sales-form{
     display: flex;
@@ -420,9 +416,6 @@ button:hover{
     text-align: center;
     color:var(--black);
 }
-#applicant{
-      
-}
 .applicant{
     display:flex;
     justify-content:center;
@@ -447,7 +440,7 @@ footer{
     background: var(--medicalblue);
 }
 .footer{
-    padding:50px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     gap:100px;
@@ -474,4 +467,41 @@ footer{
 .attribute{
     text-align: center;
     padding: 25px;
+}
+/*CONTACT PAGE STYLING (iPAD)*/
+/*CONTACT PAGE STYLING (MOBILE)*/
+@media(max-width:760px){
+    .contact-message h1{
+        font-size: 1.5rem;
+    }
+    .contact-message p{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .contact-cards{
+        display: inline-block;
+    }
+    
+    .support-form{
+        display: inline-block;
+    }
+    .support-form h2{
+        font-size: 1.5rem;
+    }
+    .support-form textarea{
+        width:250px;
+    }
+    .sales-form{
+        display:inline-block;
+    }
+    .applicant{
+        display: inline-block;
+    }
+    .footer{
+        display: inline-block;
+    }
+    .contact-hero{
+        width: 100%;
+        height:50vh;
+    }
 }
