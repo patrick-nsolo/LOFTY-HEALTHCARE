@@ -102,6 +102,9 @@ button a{
     background-color: var(--white);
     padding:30px;
 }
+.a{
+    display: flex;
+}
 .login-box h2{
     color:var(--medicalblue);
 }
