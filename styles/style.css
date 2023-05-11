@@ -499,6 +499,22 @@ footer{
         margin-left: 40px;
         margin-top: 30px;
     }
+    .card .bx{
+        color:var(--medicalblue);
+        font-size: 2rem;
+    }
+    .card h2{
+        font-size: 1.5rem;
+        margin-top: 20px;
+        color: var(--medicalblue);
+    }
+    .card p{
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .card .contact-btn{
+        font-size: 1rem;
+    }
     
     
     .support-form{
