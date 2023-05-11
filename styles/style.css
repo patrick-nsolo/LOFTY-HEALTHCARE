@@ -515,15 +515,22 @@ footer{
     .card .contact-btn{
         font-size: 1rem;
     }
-    #support-form{
+    #sales-form{
         background-color: var(--grey);
-        margin-top: 100px;
     }
-    .support-form{
+    .sales-form{
         display: inline-block;
         justify-content: center;
         padding:50px;
         gap:200px;
+    }
+    .support-form h2{
+        color:var(--medicalblue);
+        font-size: 2.2rem;
+        
+    }
+    .support-form p{
+        color: var(--black);
     }
     .message-field{
         width:400px;
@@ -537,6 +544,60 @@ footer{
     .card .contact-btn{
         font-size: 1rem;
     }
+    .support-form-details{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .support-form-details ul li{
+        list-style: none;
+        text-align: center;
+        color:var(--black);
+    }
+    #support-form{
+        background-color: var(--grey);
+        margin-top: 100px;
+    }
+    .support-form{
+        display: inline-block;
+        justify-content: center;
+        padding:50px;
+        gap:200px;
+    }
+    .support-form h2{
+        color:var(--medicalblue);
+        font-size: 2.2rem;
+        
+    }
+    .support-form p{
+        color: var(--black);
+    }
+    .message-field{
+        width:400px;
+        height:200px;
+        margin-top: 30px;
+        padding:10px;
+    }
+    .spprt-btn{
+        width: 250px;
+    }
+    .card .contact-btn{
+        font-size: 1rem;
+    }
+    .support-form-details{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .support-form-details ul li{
+        list-style: none;
+        text-align: center;
+        color:var(--black);
+    }
+
+
+
+
+
+
     
     
     .support-form{
