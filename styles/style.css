@@ -471,6 +471,9 @@ footer{
 /*CONTACT PAGE STYLING (iPAD)*/
 /*CONTACT PAGE STYLING (MOBILE)*/
 @media(max-width:760px){
+    .contact .contact-hero{
+        height:200px;
+    }
     .contact-message h1{
         font-size: 1.5rem;
     }
