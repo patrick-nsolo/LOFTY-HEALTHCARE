@@ -104,8 +104,9 @@ button a{
 }
 .login-head{
     display: flex;
-    justify-content: center;
-    gap:200px;
+    justify-content: space-evenly;
+    gap:180px;
+    
 }
 .login-box h2{
     color:var(--medicalblue);
