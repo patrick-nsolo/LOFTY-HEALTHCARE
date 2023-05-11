@@ -587,6 +587,20 @@ footer{
     .card .contact-btn{
         font-size: 1rem;
     }
+    #applicant{
+        text-align: center;
+    }
+    .applicant{
+        display:inline-block;
+        padding:50px;
+    }
+    .applicant-text h2{
+        color: var(--medicalblue);
+    }
+    .applcnt-btn{
+        width:250px;
+    }
+    
     
 
 
@@ -596,7 +610,7 @@ footer{
 
     
     
-    .support-form{
+    .spport-form{
         display: inline-block;
     }
     .support-form h2{
