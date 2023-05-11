@@ -515,6 +515,28 @@ footer{
     .card .contact-btn{
         font-size: 1rem;
     }
+    #support-form{
+        background-color: var(--grey);
+        margin-top: 100px;
+    }
+    .support-form{
+        display: inline-block;
+        justify-content: center;
+        padding:50px;
+        gap:200px;
+    }
+    .message-field{
+        width:400px;
+        height:200px;
+        margin-top: 30px;
+        padding:10px;
+    }
+    .spprt-btn{
+        width: 250px;
+    }
+    .card .contact-btn{
+        font-size: 1rem;
+    }
     
     
     .support-form{
