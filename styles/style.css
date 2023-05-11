@@ -24,7 +24,7 @@ body{
     /*Other Color Variants*/
     --red:hsl(10, 86%, 49%);
     --black:hsl(0, 0%, 12%);
-    --grey:hsl(0, 0%, 83%);
+    --grey:hsl(0, 0%, 94%);
     --darkgrey:hsl(0, 0%, 24%);
     --blue:rgb(29, 14, 126);
     --coldblue:rgb(11, 1, 49);
@@ -369,7 +369,7 @@ button:hover{
     font-size: 2.2rem;
 }
 .support-form p{
-    color: var(--white);
+    color: var(--black);
 }
 .spprt-btn{
     background: var(--blue);
@@ -382,7 +382,7 @@ button:hover{
 .support-form-details ul li{
     list-style: none;
     text-align: center;
-    color:var(--white);
+    color:var(--black);
 }
 #sales-form{
     background-color: var(--grey);
@@ -461,4 +461,9 @@ footer{
 }
 .media li a .bx{
     color: var(--white);
+}
+.attribute{
+    text-align: center;
+    
+    padding: 25px;
 }
