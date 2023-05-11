@@ -409,6 +409,9 @@ button:hover{
     background: var(--blue);
     width: 300px;
 }
+.sales-btn{
+    
+}
 .sales-form-details{
     padding: 70px;
     margin-top: 50px;
@@ -437,6 +440,9 @@ button:hover{
 }
 .applicant p{
     color: var(--black);
+}
+.applcnt-btn{
+    width:250px;
 }
 footer{
     background: var(--medicalblue);
