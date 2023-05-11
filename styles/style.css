@@ -352,6 +352,7 @@ button:hover{
     width:400px;
     height:200px;
     margin-top: 30px;
+    padding:10px;
 }
 .support-form{
     display: flex;
@@ -373,7 +374,38 @@ button:hover{
 .support-form p{
     color: var(--white);
 }
+.spprt-btn{
+    background: var(--blue);
+    width: 300px;
+}
 .support-form-details{
+    padding: 70px;
+    margin-top: 50px;
+}
+.support-form-details ul li{
+    list-style: none;
+    text-align: center;
+    color:var(--white);
+}
+#sales-form{
+    background-color: var(--grey);
+    margin-top: 100px;
+}
+.sales-form{
+    padding:50px;
+}
+.support-form h2{
+    color:var(--white);
+    font-size: 2.2rem;
+}
+.support-form p{
+    color: var(--white);
+}
+.spprt-btn{
+    background: var(--blue);
+    width: 300px;
+}
+.sales-form-details{
     padding: 70px;
     margin-top: 50px;
 }
