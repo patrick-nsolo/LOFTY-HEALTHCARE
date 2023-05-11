@@ -415,12 +415,11 @@ button:hover{
     color:var(--black);
 }
 #applicant{
-    background-color: var(--medicalblue);
-    
+      
 }
 .applicant{
     display:flex;
-    justify-content: center;
+    justify-content:center;
     padding:100px;
     gap:300px;
 }
@@ -430,7 +429,17 @@ button:hover{
 }
 .applicant h2{
     font-size: 2.2rem;
+    color: var(--medicalblue);
 }
 .applicant p{
+    color: var(--black);
 }
-
+footer{
+    background: var(--medicalblue);
+}
+.footer{
+    padding:100px;
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
