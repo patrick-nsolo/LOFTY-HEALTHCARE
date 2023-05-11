@@ -600,6 +600,43 @@ footer{
     .applcnt-btn{
         width:250px;
     }
+    footer{
+        background: var(--medicalblue);
+    }
+    .footer{
+        padding: 20px;
+        display: inline-block;
+    }
+    .footer h5{
+        color:var(--white);
+        font-size: 1.5rem;
+    }
+    .footer div h5{
+        margin-top: 50px;
+    }
+    .footer-nav ul{
+        line-height: 30px;
+    }
+    .footer-nav ul li {
+        list-style: none;
+        color: var(--white);
+    }
+    .footer-nav ul li a{
+        text-decoration: none;
+        color:var(--white);
+        transition: all 0.5s ease-in-out;
+    }
+    .footer-nav ul li a:hover{
+        color: var(--blue);
+    }
+    .media li a .bx{
+        color: var(--white);
+    }
+    .attribute{
+        text-align: center;
+        padding: 25px;
+        font-size: 0.7rem;
+    }
     
     
 
