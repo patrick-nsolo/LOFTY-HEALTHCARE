@@ -267,6 +267,13 @@ button:hover{
         right:10%;
         padding:45px;
     }
+    .login-head{
+        gap:20px;    
+    }
+    .reg-head{
+        display: inline-block;
+        gap:20px;    
+    }
     .log-links{
         display:inline-block;
         line-height: 20px;
