@@ -460,30 +460,4 @@ button:hover{
         padding: 25px;
         font-size: 0.7rem;
     }
-    
-    
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    .sales-form{
-        display:inline-block;
-    }
-    .applicant{
-        display: inline-block;
-    }
-    .footer{
-        display: inline-block;
-    }
-    .contact-hero{
-        width: 100%;
-        height:50vh;
-    }
 }
