@@ -341,6 +341,31 @@ button:hover{
         display: inline-block;
         padding:50px;
     }
+    .support-form h2{
+        color:var(--medicalblue);
+        font-size: 2.2rem;   
+    }
+    .support-form p{
+        color: var(--black);
+    }
+    .message-field{
+        width:400px;
+        height:200px;
+        margin-top: 30px;
+        padding:10px;
+    }
+    .spprt-btn{
+        width: 300px;
+    }
+    .support-form-details{
+        margin-top: 30px;
+    }
+    .support-form-details ul{
+        line-height: 25px;
+    }
+    .support-form-details ul li{
+        list-style: none;
+    }
 
 }
 /*CONTACT PAGE STYLING (MOBILE)*/
