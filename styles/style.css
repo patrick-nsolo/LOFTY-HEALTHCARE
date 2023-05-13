@@ -316,7 +316,7 @@ button:hover{
         width: 700px;
         padding:30px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        margin-left: 40px;
+        margin-left: 60px;
         margin-top: 40px;
     }
     .contact-message h1{
@@ -342,17 +342,17 @@ button:hover{
         text-align: center;
     }
     .sales-form{
-        padding: 100px;
+        padding: 50px;
     }
     .support-form{
         display: inline-block;
         padding:50px;
     }
-    .support-form h2, .sales-form h2{
+    .support-form h2, .sales-form h2,.applicant h2{
         color:var(--medicalblue);
         font-size: 2.2rem;   
     }
-    .support-form p,.sales-form p{
+    .support-form p,.sales-form p,.applicant p{
         color: var(--black);
         font-size:1.2rem;
     }
@@ -371,11 +371,28 @@ button:hover{
     .support-form-details ul, .sales-form-details ul{
         line-height: 25px;
     }
-    .support-form-details ul li{
+    .support-form-details ul li,.sales-form-details ul li{
         list-style: none;
         font-size: 1.2rem;
     }
-
+    .sales-form form h2{
+        margin-top: 30px;
+    }
+    #applicant{
+        text-align: center;
+    }
+    .applicant{
+        display: flex;
+        justify-content: center;
+        gap:70px;
+        padding: 100px;
+    }
+    .applicant h2{
+        color: var(--medicalblue);
+    }
+    .applcnt-btn{
+        width:250px;
+    }
 }
 /*CONTACT PAGE STYLING (MOBILE)*/
 @media(max-width:760px){
