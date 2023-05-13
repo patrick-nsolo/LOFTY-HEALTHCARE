@@ -332,6 +332,15 @@ button:hover{
     .card .contact-btn{
         font-size: 1.1rem;
     }
+    #support-form{
+        background-color: var(--grey);
+        margin-top: 100px;
+        text-align: center;
+    }
+    .support-form{
+        display: inline-block;
+        padding:50px;
+    }
 
 }
 /*CONTACT PAGE STYLING (MOBILE)*/
