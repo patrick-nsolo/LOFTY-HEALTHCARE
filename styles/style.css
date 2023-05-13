@@ -337,6 +337,10 @@ button:hover{
         margin-top: 100px;
         text-align: center;
     }
+    #sales-form{
+        background-color: var(--grey);
+        text-align: center;
+    }
     .support-form{
         display: inline-block;
         padding:50px;
@@ -347,6 +351,7 @@ button:hover{
     }
     .support-form p{
         color: var(--black);
+        font-size:1.2rem;
     }
     .message-field{
         width:400px;
@@ -365,6 +370,7 @@ button:hover{
     }
     .support-form-details ul li{
         list-style: none;
+        font-size: 1.2rem;
     }
 
 }
