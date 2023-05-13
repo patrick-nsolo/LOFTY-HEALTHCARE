@@ -312,7 +312,6 @@ button:hover{
         display: inline-block;
         text-align: center; 
     }
-    
     .card{
         width: 700px;
         padding:30px;
@@ -329,6 +328,9 @@ button:hover{
     }
     .card .bx,.card h2{
         color:var(--medicalblue);
+    }
+    .card .contact-btn{
+        font-size: 1.1rem;
     }
 
 }
