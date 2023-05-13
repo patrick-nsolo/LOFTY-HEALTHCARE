@@ -318,7 +318,7 @@ button:hover{
         padding:30px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin-left: 40px;
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .contact-message h1{
         font-size: 2rem;
@@ -326,6 +326,9 @@ button:hover{
     .contact-message p{
         font-size: 1.5rem;
         margin-top: 5px;
+    }
+    .card .bx,.card h2{
+        color:var(--medicalblue);
     }
 
 }
