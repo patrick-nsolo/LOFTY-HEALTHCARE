@@ -291,183 +291,6 @@ button:hover{
     /*registration overlay styling*/   
 }
 /*Landing Page Styling END*/
-
-
-/*CONTACT PAGE STYLING (Desktop)
-.contact{
-    justify-content: center;
-    display: flex;
-}
-.contact-hero{
-    width: 80%;
-    max-width: 100%;
-    height:70vh;
-    text-align: center;
-}
-.contact-message{
-    text-align: center;
-    margin-top:50px;
-}
-.contact-message h1{
-    font-size: 2rem;
-    color: var(--medicalblue);
-}
-.contact-message p{
-    font-size: 1.5rem;
-}
-.contact-cards{
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-    gap: 50px;
-    text-align: center;   
-}
-.card{
-    width: 300px;
-    padding:50px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.card .bx{
-    color:var(--medicalblue);
-    font-size: 2rem;
-}
-.card h2{
-    font-size: 1.5rem;
-    margin-top: 20px;
-}
-.card p{
-    margin-top: 20px;
-    line-height: 20px;
-}
-.card .contact-btn{
-    font-size: 1rem;
-}
-.support-btn{
-    margin-top: 50px;
-}
-.contact-reg-btn{
-    margin-top: 50px;
-}
-.message-field{
-    width:400px;
-    height:200px;
-    margin-top: 30px;
-    padding:10px;
-}
-.support-form{
-    display: flex;
-    justify-content: center;
-    padding:50px;
-    gap:200px;
-}
-#support-form{
-    background-color: var(--grey);
-    margin-top: 100px;
-}
-.support-form h2{
-    color:var(--medicalblue);
-    font-size: 2.2rem;
-}
-.support-form p{
-    color: var(--black);
-}
-.spprt-btn{
-    background: var(--medicalblue);
-    width: 250px;
-    height:50px;
-    transition: all 0.5s ease-in-out;
-}
-.support-form-details{
-    padding: 70px;
-    margin-top: 50px;
-}
-.support-form-details ul li{
-    list-style: none;
-    text-align: center;
-    color:var(--black);
-}
-#sales-form{
-    background-color: var(--grey);   
-}
-.sales-form{
-    display: flex;
-    justify-content: center;
-    padding:50px;
-    gap:200px;
-}
-.sales-form h2{
-    color:var(--medicalblue);
-    font-size: 2.2rem;
-}
-.sales-form p{
-    color: var(--black);
-}
-.sls-btn{
-    color: var(--white);
-    width:250px;
-    height:50px;
-}
-.sales-form-details{
-    padding: 70px;
-    margin-top: 50px;
-}
-.sales-form-details ul li{
-    list-style: none;
-    text-align: center;
-    color:var(--black);
-}
-.applicant{
-    display:flex;
-    justify-content:center;
-    padding:100px;
-    gap:300px;
-}
-.applicant-text{
-    color:var(--white);
-    text-align: center;    
-}
-.applicant h2{
-    font-size: 2.2rem;
-    color: var(--medicalblue);
-}
-.applicant p{
-    color: var(--black);
-}
-.applcnt-btn{
-    width:250px;
-}
-footer{
-    background: var(--medicalblue);
-}
-.footer{
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    gap:100px;
-}
-.footer h5{
-    color:var(--white);
-    font-size: 1.5rem;
-}
-.footer-nav ul li {
-    list-style: none;
-    color: var(--white);
-}
-.footer-nav ul li a{
-    text-decoration: none;
-    color:var(--white);
-    transition: all 0.5s ease-in-out;
-}
-.footer-nav ul li a:hover{
-    color: var(--blue);
-}
-.media li a .bx{
-    color: var(--white);
-}
-.attribute{
-    text-align: center;
-    padding: 25px;
-}
 /*CONTACT PAGE STYLING (iPAD)*/
 /*CONTACT PAGE STYLING (MOBILE)*/
 @media(max-width:760px){
@@ -534,7 +357,7 @@ footer{
         color: var(--black);
     }
     .message-field{
-        width:400px;
+        width:250px;
         height:200px;
         margin-top: 30px;
         padding:10px;
@@ -647,15 +470,9 @@ footer{
 
     
     
-    .spport-form{
-        display: inline-block;
-    }
-    .support-form h2{
-        font-size: 1.5rem;
-    }
-    .support-form textarea, .sales-form textarea{
-        width:250px;
-    }
+    
+    
+    
     .sales-form{
         display:inline-block;
     }
