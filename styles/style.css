@@ -331,7 +331,11 @@ button:hover{
     height: 500px;
     margin-top: 50px;
 }
-.support-form{
+#sales-form{
+    background-color: var(--grey);
+    height: 500px;
+}
+.support-form, .sales-form{
     display: flex;
     justify-content: center;
     gap: 200px;
@@ -344,27 +348,31 @@ button:hover{
 .support-form p,.sales-form p{
     font-size: 1.3rem;
 }
-.support-form textarea{
+.support-form textarea, .sales-form textarea{
     width: 400px;
     height: 150px;
     padding: 10px;
     margin-top: 20px;
 }
-.support-form-details h2{
+.support-form-details h2, .sales-form-details h2{
     text-align: center;
 }
-.support-form-details{
+.support-form-details, .sales-form-details{
     margin-top: 100px;
 }
-.support-form-details ul{
+.support-form-details ul, .sales-form-details ul{
     margin-top: 20px;
     line-height: 25px;
 }
-.support-form-details ul li{
+.support-form-details ul li, .sales-form-details ul li{
     list-style: none;
     font-size: 1.2rem;
     text-align: center;
 }
+.spprt-btn, .sls-btn{
+    width:250px;
+}
+
 /*CONTACT PAGE STYLING (iPAD)*/
 /*@media(min-width:760px) and (max-width:1200px){
     .contact-message{
