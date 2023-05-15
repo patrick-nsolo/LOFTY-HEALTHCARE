@@ -15,7 +15,6 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
 }
 :root{
     --medicalgreen:rgb(155, 229, 170);
@@ -293,9 +292,9 @@ button:hover{
 }
 /*Landing Page Styling END*/
 /*CONTACT PAGE STYLING (Desktop)*/
-/*.contact-message{
+.contact-message{
     text-align: center;
-}*/
+}
 .contact-message h1, .card .bx{
     font-size: 3rem;
     color: var(--medicalblue);
@@ -429,29 +428,37 @@ footer{
     padding: 25px;
     font-size: 1rem;
 }
-/*CONTACT PAGE STYLING (iPAD)*/
-@media(min-width:760px) and (max-width:1200px){
-    .contact-hero{
-        height: 200px;
-    }
-    .contact-message{
-        text-align: 0;
+/*CONTACT PAGE STYLING (MOBILE)*/
+@media(max-width:760px){
+    .ontact-hero{
+        height: 400px;
     }
     .contact-message h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .contact-message p{
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+    .card{
+        width:400px;
     }
     #support-form,#sales-form{
         height: 750px;
     }
+    .support-form textarea, .sales-form textarea{
+        width:200px;
+    }
     .support-form, .sales-form,.contact-cards{
         display: inline-block;
+        text-align: center;
+    }
+    .support-form-details,.sales-form-details,.sales-form form{
+        margin-top: 20px;
     }
     .applicant{
         display: inline-block;
         text-align: center;
+        margin-top: 0;
     }
     footer{
         background: var(--medicalblue);
@@ -459,6 +466,9 @@ footer{
     }
     .footer{
         display: inline-block;
+    }
+    .attribute{
+        font-size: 0.8rem;
     }
     
 }
