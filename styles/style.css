@@ -328,12 +328,36 @@ button:hover{
 }
 #support-form{
     background-color: var(--grey);
+    height: 400px;
     margin-top: 50px;
 }
 .support-form{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 200px;
+    padding: 50px;
+}
+.support-form h2, .sales-form h2{
+    font-size: 2rem;
+    color: var(--medicalblue);
+}
+.support-form p,.sales-form p{
+    font-size: 1.3rem;
+}
+.support-form-details h2{
+    text-align: center;
+}
+.support-form-details{
+    margin-top: 50px;
+}
+.support-form-details ul{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.support-form-details ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
 }
 /*CONTACT PAGE STYLING (iPAD)*/
 /*@media(min-width:760px) and (max-width:1200px){
