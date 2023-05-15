@@ -341,7 +341,7 @@ button:hover{
     gap: 200px;
     padding: 50px;
 }
-.support-form h2, .sales-form h2{
+.support-form h2, .sales-form h2, .applicant-text h2{
     font-size: 2rem;
     color: var(--medicalblue);
 }
@@ -369,8 +369,20 @@ button:hover{
     font-size: 1.2rem;
     text-align: center;
 }
-.spprt-btn, .sls-btn{
+.spprt-btn, .sls-btn, .applcnt-btn{
     width:250px;
+}
+#applicant{
+    height: 300px;
+    padding: 50px;
+}
+.applicant{
+    display:flex;
+    justify-content: center;
+    gap: 200px;
+}
+.applicant-text p{
+    font-size: 1.2rem;
 }
 
 /*CONTACT PAGE STYLING (iPAD)*/
