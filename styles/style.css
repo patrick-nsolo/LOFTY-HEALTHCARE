@@ -326,6 +326,15 @@ button:hover{
 .card .contact-btn{
     font-size: 1rem;
 }
+#support-form{
+    background-color: var(--grey);
+    margin-top: 50px;
+}
+.support-form{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
 /*CONTACT PAGE STYLING (iPAD)*/
 /*@media(min-width:760px) and (max-width:1200px){
     .contact-message{
