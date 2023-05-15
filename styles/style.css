@@ -328,7 +328,7 @@ button:hover{
 }
 #support-form{
     background-color: var(--grey);
-    height: 400px;
+    height: 500px;
     margin-top: 50px;
 }
 .support-form{
@@ -344,11 +344,17 @@ button:hover{
 .support-form p,.sales-form p{
     font-size: 1.3rem;
 }
+.support-form textarea{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
 .support-form-details h2{
     text-align: center;
 }
 .support-form-details{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .support-form-details ul{
     margin-top: 20px;
