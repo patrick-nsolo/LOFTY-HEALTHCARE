@@ -291,8 +291,9 @@ button:hover{
     /*registration overlay styling*/   
 }
 /*Landing Page Styling END*/
+/*CONTACT PAGE STYLING (Desktop)*/
 /*CONTACT PAGE STYLING (iPAD)*/
-@media(min-width:760px) and (max-width:1200px){
+/*@media(min-width:760px) and (max-width:1200px){
     .contact-message{
         text-align: center;
         margin-top:50px;
@@ -434,9 +435,9 @@ button:hover{
         padding: 25px;
         font-size: 1.3rem;
     }
-}
+}*/
 /*CONTACT PAGE STYLING (MOBILE)*/
-@media(max-width:760px){
+/*@media(max-width:760px){
     .contact-message{
         text-align: center;
         margin-top:50px;
@@ -603,4 +604,4 @@ button:hover{
         padding: 25px;
         font-size: 0.7rem;
     }
-}
+}*/
