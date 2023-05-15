@@ -292,6 +292,40 @@ button:hover{
 }
 /*Landing Page Styling END*/
 /*CONTACT PAGE STYLING (Desktop)*/
+.contact-message{
+    text-align: center;
+}
+.contact-message h1, .card .bx{
+    font-size: 3rem;
+    color: var(--medicalblue);
+}
+.contact-message p{
+    font-size: 2rem;
+    color: var(--darkgrey);
+}
+.contact-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    text-align: center;
+    width: 400px;
+    padding:50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.card h2{
+    color: var(--medicalblue);
+}
+.card p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.card .contact-btn{
+    font-size: 1rem;
+}
 /*CONTACT PAGE STYLING (iPAD)*/
 /*@media(min-width:760px) and (max-width:1200px){
     .contact-message{
