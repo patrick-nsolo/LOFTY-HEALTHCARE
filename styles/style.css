@@ -433,6 +433,9 @@ footer{
     .ontact-hero{
         height: 400px;
     }
+    .contact-message{
+        margin-top: 50px;
+    }
     .contact-message h1{
         font-size: 1.5rem;
     }
