@@ -291,7 +291,7 @@ button:hover{
     /*registration overlay styling*/   
 }
 /*Landing Page Styling END*/
-/*CONTACT PAGE STYLING (Desktop)*/
+/*CONTACT PAGE STYLING (DESKTOP)*/
 .contact-message{
     text-align: center;
 }
@@ -368,6 +368,7 @@ button:hover{
     list-style: none;
     font-size: 1.2rem;
     text-align: center;
+    font-style: italic;
 }
 .spprt-btn, .sls-btn, .applcnt-btn{
     width:250px;
@@ -434,7 +435,7 @@ footer{
         height: 400px;
     }
     .contact-message{
-        margin-top: 50px;
+        padding: 25px;
     }
     .contact-message h1{
         font-size: 1.5rem;
@@ -442,11 +443,30 @@ footer{
     .contact-message p{
         font-size: 1.2rem;
     }
+    .contact-cards{
+        margin-top: 0;
+    }
     .card{
-        width:400px;
+        width:300px;
+        margin-left: 30px;
+    }
+    .card p{
+        font-size: 1rem;
     }
     #support-form,#sales-form{
-        height: 750px;
+        height: 650px;
+        width: 400px;
+    }
+    .support-form , .sales-form{
+        padding:0;
+        margin-top: 30px;
+    }
+    .support-form h2, .sales-form h2, .applicant-text h2{
+        font-size: 1.5rem;
+        color: var(--medicalblue);
+    }
+    .support-form p,.sales-form p{
+        font-size: 1.1rem;
     }
     .support-form input ,.support-form textarea,.sales-form input, .sales-form textarea{
         width:300px;
@@ -457,6 +477,9 @@ footer{
     }
     .support-form-details,.sales-form-details,.sales-form form{
         margin-top: 20px;
+    }
+    .support-form-details ul li, .sales-form-details ul li, .applicant p{
+        font-size: 1rem;
     }
     .applicant{
         display: inline-block;
@@ -469,13 +492,14 @@ footer{
     }
     .footer{
         display: inline-block;
+        padding: 20px;
     }
     .attribute{
         font-size: 0.8rem;
-    }
-    
+    }    
 }
-/*CONTACT PAGE STYLING (MOBILE)*/
+/*CONTACT PAGE STYLING (MOBILE) END*/
+/*CONTACT PAGE STYLING (IPAD)*/
 /*@media(max-width:760px){
     .contact-message{
         text-align: center;
