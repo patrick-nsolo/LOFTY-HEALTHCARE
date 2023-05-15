@@ -445,8 +445,8 @@ footer{
     #support-form,#sales-form{
         height: 750px;
     }
-    .support-form textarea, .sales-form textarea{
-        width:200px;
+    .support-form input ,.support-form textarea,.sales-form input, .sales-form textarea{
+        width:300px;
     }
     .support-form, .sales-form,.contact-cards{
         display: inline-block;
