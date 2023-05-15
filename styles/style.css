@@ -379,10 +379,54 @@ button:hover{
 .applicant{
     display:flex;
     justify-content: center;
-    gap: 200px;
+    gap: 300px;
+    margin-top: 50px;
+}
+.applicant-text{
+    text-align: center;
 }
 .applicant-text p{
     font-size: 1.2rem;
+}
+footer{
+    background: var(--medicalblue);
+    height: 400px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.footer h5{
+    color:var(--white);
+    font-size: 1.5rem;
+}
+.footer div h5{
+    margin-top: 50px;
+}
+.footer-nav ul{
+    line-height: 30px;
+    margin-top: 20px;
+}
+.footer-nav ul li {
+    list-style: none;
+    color: var(--white);
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color:var(--white);
+    transition: all 0.5s ease-in-out;
+}
+.footer-nav ul li a:hover{
+    color: var(--blue);
+}
+.media li a .bx{
+    color: var(--white);
+}
+.attribute{
+    text-align: center;
+    padding: 25px;
+    font-size: 1rem;
 }
 
 /*CONTACT PAGE STYLING (iPAD)*/
