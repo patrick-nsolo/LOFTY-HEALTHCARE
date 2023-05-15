@@ -15,6 +15,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden;
 }
 :root{
     --medicalgreen:rgb(155, 229, 170);
@@ -292,9 +293,9 @@ button:hover{
 }
 /*Landing Page Styling END*/
 /*CONTACT PAGE STYLING (Desktop)*/
-.contact-message{
+/*.contact-message{
     text-align: center;
-}
+}*/
 .contact-message h1, .card .bx{
     font-size: 3rem;
     color: var(--medicalblue);
@@ -428,151 +429,39 @@ footer{
     padding: 25px;
     font-size: 1rem;
 }
-
 /*CONTACT PAGE STYLING (iPAD)*/
-/*@media(min-width:760px) and (max-width:1200px){
-    .contact-message{
-        text-align: center;
-        margin-top:50px;
+@media(min-width:760px) and (max-width:1200px){
+    .contact-hero{
+        height: 200px;
     }
-    .contact .contact-hero{
-        height:450px;
+    .contact-message{
+        text-align: 0;
     }
     .contact-message h1{
-        font-size: 1.5rem;
-        color:var(--medicalblue)
+        font-size: 2rem;
     }
     .contact-message p{
         font-size: 1rem;
-        margin-top: 5px;
     }
-    .contact-cards{
+    #support-form,#sales-form{
+        height: 750px;
+    }
+    .support-form, .sales-form,.contact-cards{
         display: inline-block;
-        text-align: center; 
-    }
-    .card{
-        width: 700px;
-        padding:30px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        margin-left: 60px;
-        margin-top: 40px;
-    }
-    .contact-message h1{
-        font-size: 2rem;
-    }
-    .contact-message p{
-        font-size: 1.5rem;
-        margin-top: 5px;
-    }
-    .card .bx,.card h2{
-        color:var(--medicalblue);
-    }
-    .card .contact-btn{
-        font-size: 1.1rem;
-    }
-    #support-form{
-        background-color: var(--grey);
-        margin-top: 100px;
-        text-align: center;
-    }
-    #sales-form{
-        background-color: var(--grey);
-        text-align: center;
-    }
-    .sales-form{
-        padding: 50px;
-    }
-    .support-form{
-        display: inline-block;
-        padding:50px;
-    }
-    .support-form h2, .sales-form h2,.applicant h2{
-        color:var(--medicalblue);
-        font-size: 2.2rem;   
-    }
-    .support-form p,.sales-form p,.applicant p{
-        color: var(--black);
-        font-size:1.2rem;
-    }
-    .message-field{
-        width:400px;
-        height:200px;
-        margin-top: 30px;
-        padding:10px;
-    }
-    .spprt-btn,.sls-btn{
-        width: 300px;
-    }
-    .support-form-details,.sales-form-details{
-        margin-top: 30px;
-    }
-    .support-form-details ul, .sales-form-details ul{
-        line-height: 25px;
-    }
-    .support-form-details ul li,.sales-form-details ul li{
-        list-style: none;
-        font-size: 1.2rem;
-    }
-    .sales-form form h2{
-        margin-top: 30px;
-    }
-    #applicant{
-        text-align: center;
     }
     .applicant{
-        display: flex;
-        justify-content: center;
-        gap:70px;
-        padding: 100px;
-    }
-    .applicant h2{
-        color: var(--medicalblue);
-    }
-    .applcnt-btn{
-        width:250px;
+        display: inline-block;
+        text-align: center;
     }
     footer{
         background: var(--medicalblue);
+        height: 750px;
     }
     .footer{
-        padding: 20px;
         display: inline-block;
     }
-    .footer h5{
-        color:var(--white);
-        font-size: 2rem;
-    }
-    .footer div h5{
-        margin-top: 50px;
-    }
-    .footer-nav ul{
-        line-height: 40px;
-    }
-    .footer-nav ul li {
-        list-style: none;
-        color: var(--white);
-    }
-    .footer-nav ul li a{
-        text-decoration: none;
-        font-size: 1.5rem;
-        color:var(--white);
-        transition: all 0.5s ease-in-out;
-    }
-    .footer-nav ul li a:hover{
-        color: var(--blue);
-    }
-    .footer .footer-nav {
-        font-size: 2rem;
-    }
-    .media li a .bx{
-        color: var(--white);
-    }
-    .attribute{
-        text-align: center;
-        padding: 25px;
-        font-size: 1.3rem;
-    }
-}*/
+    
+}
 /*CONTACT PAGE STYLING (MOBILE)*/
 /*@media(max-width:760px){
     .contact-message{
