@@ -39,6 +39,11 @@ body{
 }
 .slider-image{
     width:100%;
+    height:auto;
+    display:none;
+}
+.slider-image.active{
+    display: block;
 }
 /*.hero-wrapper{
     display: flex;
