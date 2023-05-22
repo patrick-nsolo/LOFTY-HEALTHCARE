@@ -33,7 +33,10 @@ body{
 }
 /*Desktop Styling*/
 /*LANDING PAGE STYLING*/
-.hero-wrapper{
+.hero-image{
+    width: 100%;
+}
+/*.hero-wrapper{
     display: flex;
     justify-content: space-between;
     padding:10px 100px;
@@ -498,7 +501,7 @@ footer{
 }
 /*CONTACT PAGE STYLING (MOBILE) END*/
 /*CONTACT PAGE STYLING (IPAD)*/
-@media (min-width:800px) and (max-width:1180px){
+@media (min-width:768px) and (max-width:1180px){
     .contact-message h1{
         font-size: 2rem;
     }
@@ -517,7 +520,7 @@ footer{
     .support-form, .sales-form{
         display: flex;
         justify-content: center;
-        gap: 200px;
+        gap: 100px;
         padding: 50px;
     }
     .support-form textarea, .sales-form textarea{
@@ -525,5 +528,12 @@ footer{
         height: 150px;
         padding: 10px;
         margin-top: 20px;
+    }
+    .applicant{
+        gap:150px;
+    }
+    .footer{
+        gap:70px;
+        padding:20px;
     }
 }
