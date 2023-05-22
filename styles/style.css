@@ -33,40 +33,7 @@ body{
 }
 /*Desktop Styling*/
 /*LANDING PAGE STYLING*/
-.slider{
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-.slider img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width:100%;
-    height:auto;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-.slider img.active{
-    opacity: 1;
-}
-.slider-controls button{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    font-size: 24px;
-    color: #fff;
-    cursor: pointer;
-}
-.slider-prev{
-    left: 10px;
-} 
-.slider-next{
-    right: 10px;
-}
+
   
   
   
