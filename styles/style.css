@@ -21,6 +21,7 @@ body{
     --medicalblue:rgb(32, 160, 216);
     --deepmedicalblue:rgb(10, 52, 70);
     --white:hsl(0, 0%, 100%);
+    --beige:hsl(60,56%,91%);
     /*Other Color Variants*/
     --red:hsl(10, 86%, 49%);
     --black:hsl(0, 0%, 12%);
@@ -448,7 +449,7 @@ footer{
     }
     .card{
         width:300px;
-        margin-left: 30px;
+        margin-left: 50px;
     }
     .card p{
         font-size: 1rem;
