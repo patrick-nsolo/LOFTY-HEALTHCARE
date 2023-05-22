@@ -37,12 +37,12 @@ body{
     width: 100%;
     overflow: hidden;
 }
-.slider-image{
+.slider img{
     width:100%;
     height:auto;
     display:none;
 }
-.slider-image.active{
+.slider img.active{
     display: block;
 }
 /*.hero-wrapper{

@@ -1,3 +1,38 @@
+
+//Slider 
+function changeImage(){
+    var sliderImages = document.querySelectorAll('.slider img');
+    var currentImage = document.querySelector('.slider img.active');
+
+    // Find the index of current image
+    var currentIndex = Array.from(sliderImages).indexOf(currentImage);
+    // Calculate the index of the nex image
+    var nextIndex = (currentIndex + 1) % sliderImages.length;
+    // Remove 'active' class from current image and add it to the next image
+    currentImage.classList.remove('active');
+    sliderImages[nextIndex].classList.add('active');
+}
+setInterval(changeImage, 3000);
+
+var sliderImages = document.querySelectorAll('.slider img');
+sliderImages[0].classList.add('active');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".menu");
 const btn = document.querySelector(".btn");
@@ -60,17 +95,4 @@ logCancel.addEventListener('click',function(event){
 });
 
 
-//Slider 
-function changeImage(){
-    var sliderImages = document.querySelectorAll('.slider-image');
-    var currentImages = document.querySelectorAll('.slider-image.active');
 
-    // Find the index of current image
-    var currentIndex = Array.from(sliderImages).indexOf(currentImages);
-    // Calculate the index of the nex image
-    var nextIndex = (currentIndex + 1) % sliderImages.length;
-    // Remove 'active' class from current image and add it to the next image
-    currentImages.classList.remove('active');
-    sliderImages[nextIndex].classList.add('active');
-}
-setInterval(changeImage, 3000);
