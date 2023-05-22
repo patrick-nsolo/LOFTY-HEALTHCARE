@@ -33,8 +33,12 @@ body{
 }
 /*Desktop Styling*/
 /*LANDING PAGE STYLING*/
-.hero-image{
+.slider{
     width: 100%;
+    overflow: hidden;
+}
+.slider-image{
+    width:100%;
 }
 /*.hero-wrapper{
     display: flex;
