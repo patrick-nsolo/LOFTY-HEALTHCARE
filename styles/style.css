@@ -432,9 +432,6 @@ footer{
 }
 /*CONTACT PAGE STYLING (MOBILE)*/
 @media(max-width:760px){
-    .ontact-hero{
-        height: 400px;
-    }
     .contact-message{
         padding: 25px;
     }
@@ -501,171 +498,32 @@ footer{
 }
 /*CONTACT PAGE STYLING (MOBILE) END*/
 /*CONTACT PAGE STYLING (IPAD)*/
-/*@media(max-width:760px){
-    .contact-message{
-        text-align: center;
-        margin-top:50px;
-    }
-    .contact .contact-hero{
-        height:200px;
-    }
+@media (min-width:800px) and (max-width:1180px){
     .contact-message h1{
-        font-size: 1.5rem;
-        color:var(--medicalblue)
+        font-size: 2rem;
     }
     .contact-message p{
-        font-size: 1rem;
-        margin-top: 5px;
+        font-size: 1.3rem;
     }
     .contact-cards{
         display: inline-block;
-        justify-content: center;
-        margin-top: 50px;
-        text-align: center; 
     }
     .card{
+        width: 750px;
+    }
+    #support-form, #sales-form{
+        height:550px;
+    }
+    .support-form, .sales-form{
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        padding: 50px;
+    }
+    .support-form textarea, .sales-form textarea{
         width: 300px;
-        padding:50px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        margin-left: 40px;
-        margin-top: 30px;
-    }
-    .card .bx{
-        color:var(--medicalblue);
-        font-size: 2rem;
-    }
-    .card h2{
-        font-size: 1.5rem;
-        margin-top: 20px;
-        color: var(--medicalblue);
-    }
-    .card p{
-        margin-top: 20px;
-        line-height: 20px;
-    }
-    .card .contact-btn{
-        font-size: 1rem;
-    }
-    #support-form{
-        background-color: var(--grey);
-        margin-top: 100px;
-    }
-    .support-form{
-        display: inline-block;
-        justify-content: center;
-        padding:50px;
-        gap:200px;
-        text-align: center;
-    }
-    .support-form h2{
-        color:var(--medicalblue);
-        font-size: 2.2rem;   
-    }
-    .support-form p{
-        color: var(--black);
-    }
-    .message-field{
-        width:250px;
-        height:200px;
-        margin-top: 30px;
-        padding:10px;
-    }
-    .spprt-btn{
-        width: 250px;
-    }
-    .card .contact-btn{
-        font-size: 1rem;
-    }
-    .support-form-details{
-        text-align: center;
+        height: 150px;
+        padding: 10px;
         margin-top: 20px;
     }
-    .support-form-details ul li{
-        list-style: none;
-        text-align: center;
-        color:var(--black);
-    }
-    #sales-form{
-        background-color: var(--grey);
-    }
-    .sales-form{
-        display: inline-block;
-        justify-content: center;
-        padding:50px;
-        gap:200px;
-    }
-    .sales-form-details{
-        text-align: center;
-        margin-top: 20px;
-    }
-    .sales-form-details ul li{
-        list-style: none;
-        text-align: center;
-        color:var(--black);
-    }
-    .sales-form-details h2,.sales-form form h2{
-        color:var(--medicalblue);
-        font-size: 1.6rem;    
-    }
-    .sales-form form{
-        text-align: center;
-        margin-top: 30px;
-    }
-    
-    .sls-btn{
-        width: 250px;
-    }
-    .card .contact-btn{
-        font-size: 1rem;
-    }
-    #applicant{
-        text-align: center;
-    }
-    .applicant{
-        display:inline-block;
-        padding:50px;
-    }
-    .applicant-text h2{
-        color: var(--medicalblue);
-    }
-    .applcnt-btn{
-        width:250px;
-    }
-    footer{
-        background: var(--medicalblue);
-    }
-    .footer{
-        padding: 20px;
-        display: inline-block;
-    }
-    .footer h5{
-        color:var(--white);
-        font-size: 1.5rem;
-    }
-    .footer div h5{
-        margin-top: 50px;
-    }
-    .footer-nav ul{
-        line-height: 30px;
-    }
-    .footer-nav ul li {
-        list-style: none;
-        color: var(--white);
-    }
-    .footer-nav ul li a{
-        text-decoration: none;
-        color:var(--white);
-        transition: all 0.5s ease-in-out;
-    }
-    .footer-nav ul li a:hover{
-        color: var(--blue);
-    }
-    .media li a .bx{
-        color: var(--white);
-    }
-    .attribute{
-        text-align: center;
-        padding: 25px;
-        font-size: 0.7rem;
-    }
-}*/
+}
