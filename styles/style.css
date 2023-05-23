@@ -33,54 +33,34 @@ body{
 }
 /*Desktop Styling*/
 /*LANDING PAGE STYLING*/
-/*.slider-container{
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-.slider{
-    display: flex;
+.slider,.slide{
+    background-position: center center;
+    display:block;
     width:100%;
-    transition: transform 0.5s ease-in-out;
-}
-.slide{
-    flex: 1 0 100%;
+    height:500px;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    overflow: hidden;
+    -moz-transition: transform .4s;
+    -o-transition: transform .4s;
+    -webkit-transition: transform .4s;
+    transition: transform .4s;
 }
 .slide img{
     width:100%;
-    height:auto;
 }
-.slide-text{
+.slide{
     position: absolute;
-    top: 50%;
-    left: -100%;
-    transform: translateY(-50%);
-    color:var(--darkgrey);
-    font-size: 25px;
-    transition: left 0.5s ease-in-out;
 }
-.slider-buttons{
+.prev-btn , .next-btn{
     position: absolute;
-    top:50%;
-    left:10px;
-    transform:translateY(-50%);
-    display: flex;
-    align-items: center;
-}
-.prev-btn, .next-btn{
-    background: transparent;
-    border: none;
-    color: var(--white);
     font-size: 70px;
-    cursor: pointer;
-    outline:none;   
+       
 }
 .next-btn{
-    margin-left: 10px;
-    margin-right: -1500px;
-    margin-left: auto;
+    
 }
 
   

@@ -18,6 +18,34 @@ n.addEventListener("click", () => {
 //NAVIGATION SCRIPT END
 
 
+//AUTOMATIC SLIDER SCRIPT START
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+
+function showSlide(slideIndex){
+    slides.forEach((slide, index) => {
+        if (index === slideIndex) {
+            slide.classList.add('active');
+            slide.classList.remove('inactive');
+        } else {
+            slide.classList.remove('active');
+            slide.classList.add('inactive');
+        }
+    });
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}
+
+setInterval(nextSlide, 5000);
+showSlide(currentSlide);
+//AUTOMATIC SLIDER SCRIPT END
+
+
+
 
 
 
