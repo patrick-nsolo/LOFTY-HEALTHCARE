@@ -1,3 +1,4 @@
+//NAVIGATION SCRIPT START
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".menu");
 const btn = document.querySelector(".btn");
@@ -14,7 +15,7 @@ n.addEventListener("click", () => {
     navMenu.classList.remove("active");
     btn.classList.toggle("active");
 }))
-
+//NAVIGATION SCRIPT END
 
 
 
