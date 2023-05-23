@@ -82,7 +82,7 @@ header{
         width: 100%;
         text-align:center;
         transition: 0.5s;
-        z-inde: 1;
+        /*z-index: 1;*/
     }
     .nav-item a{
         transition:0.5s ease-out;
