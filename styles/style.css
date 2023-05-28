@@ -51,13 +51,12 @@ body{
 }
 .slides img{
     width:100%;
-    object-fit:;
 }
 .slides .image-overlay{
     position: absolute;
     top: 40%;
     width: 100%;
-    padding: 20px 50px;
+    padding: 30px 80px;
     z-index:11;
 }
 .image-overlay h1{
@@ -78,8 +77,16 @@ body{
     transition:0.5s ease-out;
 }
 .image-overlay a:hover{
-    background: var(--blue);
-    
+    background: var(--blue);    
+}
+.swiper-btn{
+    background: rgba(0,0,0,0.6);
+    padding:2rem;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+.swiper-btn{
+    font-weight: bolder;
 }
 
   
