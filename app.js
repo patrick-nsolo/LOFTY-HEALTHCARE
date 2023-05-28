@@ -34,6 +34,7 @@ var swiper = new Swiper(".mySwiper",{
         prevEl: ".swiper-button-prev",
     },
 });
+setInterval(changeImage, 3000);
 //AUTOMATIC SLIDER SCRIPT END
 
 

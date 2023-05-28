@@ -80,12 +80,37 @@ body{
     background: var(--blue);    
 }
 .swiper-btn{
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.3);
     padding:2rem;
     border-radius: 50%;
 }
 .swiper-btn::after{
     font-weight: bolder;
+}
+@media(max-width:760px){
+    .slides .image-overlay{
+        text-align: left;
+        top:0;
+    }
+    .image-overlay h1{
+        font-size: 1rem;
+        color: var(--white);
+    }
+    .image-overlay h2{
+        font-size: 0.5rem;
+        color: var(--white);
+    }
+    .swiper-btn{
+        display: none;
+    }
+    .slides .image-overlay{
+        padding: 10px 40px;
+    }
+    .image-overlay a{
+        padding: 7px 10px;
+        margin-top: 0.5rem;
+    }
+
 }
 
   
