@@ -104,7 +104,7 @@ body{
         display: none;
     }
     .slides .image-overlay{
-        padding: 10px 40px;
+        padding: 40px 10px;
     }
     .image-overlay a{
         padding: 7px 10px;
