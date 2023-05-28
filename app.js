@@ -20,9 +20,9 @@ n.addEventListener("click", () => {
 
 //AUTOMATIC SLIDER SCRIPT START
 var swiper = new Swiper(".mySwiper",{
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 30,
-    slidesPerGroup: 3,
+    slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination:{
@@ -30,11 +30,10 @@ var swiper = new Swiper(".mySwiper",{
         clickable: true,
     },
     navigation:{
-        nextEl: "",
-        prevEl: "",
-
-    }
-})
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
 //AUTOMATIC SLIDER SCRIPT END
 
 
