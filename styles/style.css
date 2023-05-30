@@ -135,10 +135,18 @@ body{
     background-size: cover;
     background-position: center;
     height:600px;
-    padding: 100px;
-    
-    
-    
+    padding: 150px;   
+}
+.why-us-text h2{
+    font-size: 2.5rem;
+}
+.why-us-text h3{
+    font-size: 2rem;
+    white-space: pre-line;
+}
+.why-us-text p{
+    font-size: 1.5rem;
+    white-space: pre-line;
 }
 #career{
     background: var(--grey);
