@@ -162,8 +162,7 @@ footer{
 }
 .footer{
     display:flex;
-    justify-content:space-between;
-    gap:0px;
+    justify-content:space-around;
     padding:50px 50px
 }
 .page-links h5, .address-links h5, .social-media h5{
@@ -174,18 +173,30 @@ footer{
     list-style: none;
     margin-top: 30px;
 }
-.footer-nav li a{
+.footer-nav li a, .footer-nav li{
     text-decoration: none;
     line-height: 35px;
     font-size: 1.2rem;
+    color: var(--black);
+}
+.footer-nav li a:hover, .media .bx:hover{
+    color: var(--medicalblue);
 }
 .media{
     display:flex;
     justify-content: space-between;
     gap:30px;
 }
+.media .bx{
+    color: var(--black);
+}
 .footer-logo{
     width:300px;
+}
+body .attribute{
+    height:200px;
+    background-color: var(--medicalblue);
+    text-align: center;
 }
 @media(max-width:760px){
     .slides .image-overlay{
