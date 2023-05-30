@@ -166,10 +166,10 @@ footer{
     gap:50px;
     padding:50px 200px
 }
-.page-links h5, .address-links h5{
+.page-links h5, .address-links h5, .social-media h5{
     font-size: 1.3rem;
 }
-.footer-nav{
+.footer-nav, .media{
     list-style: none;
     margin-top: 30px;
 }
@@ -177,6 +177,11 @@ footer{
     text-decoration: none;
     line-height: 35px;
     font-size: 1.2rem;
+}
+.media{
+    display:flex;
+    justify-content: space-between;
+    gap:50px
 }
 @media(max-width:760px){
     .slides .image-overlay{
