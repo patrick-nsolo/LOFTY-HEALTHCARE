@@ -129,6 +129,17 @@ body{
 .about-text a:hover{
     background: var(--blue);
 }
+#why-us{
+    background-image: url(/images/why-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:600px;
+    padding: 100px;
+    
+    
+    
+}
 #career{
     background: var(--grey);
     height:400px;
@@ -193,10 +204,12 @@ footer{
 .footer-logo{
     width:300px;
 }
-body .attribute{
+.attribute{
     height:200px;
-    background-color: var(--medicalblue);
     text-align: center;
+}
+.attribute a{
+    text-decoration: none;
 }
 @media(max-width:760px){
     .slides .image-overlay{
