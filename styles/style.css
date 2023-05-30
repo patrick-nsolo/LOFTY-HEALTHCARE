@@ -116,7 +116,7 @@ body{
     line-height: 25px;
     font-size:1.2rem;
 }
-.about-text a{
+.about-text a, .why-us-text a{
     text-decoration: none;
     color: var(--white);
     background: var(--medicalblue);
@@ -147,6 +147,19 @@ body{
 .why-us-text p{
     font-size: 1.5rem;
     white-space: pre-line;
+}
+.why-us-text a{
+    text-decoration: none;
+    color: var(--white);
+    background: transparent;
+    padding: 14px 32px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition:0.5s ease-out;
+    margin-top: 40px;
+}
+.why-us-text a:hover{
+    background: var(--blue);
 }
 #career{
     background: var(--grey);
@@ -267,10 +280,44 @@ footer{
     }
     .career-text p{
         padding:0;
+        margin-top: 20px;
     }
     .career-text h2{
         font-size: 1.5rem;
     }
+    #why-us{
+        padding: 50px;  
+        height:450px; 
+    }
+    .why-us-text h2{
+        font-size: 1.5rem;
+    }
+    .why-us-text h3{
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .why-us-text p{
+        font-size: 1rem;
+        white-space: pre-line;
+    }
+    .why-us-text a{
+        text-decoration: none;
+        color: var(--white);
+        background: transparent;
+        padding: 14px 32px;
+        display: inline-block;
+        margin-top: 1rem;
+        transition:0.5s ease-out;
+        margin-top: 40px;
+    }
+    .why-us-text a:hover{
+        background: var(--blue);
+    }
+    footer{
+        height:800px;
+    }
+    .footer{
+        display:inline-block;
 }
 
 
