@@ -157,6 +157,7 @@ body{
     margin-top: 1rem;
     transition:0.5s ease-out;
     margin-top: 40px;
+    border: 1px solid black;
 }
 .why-us-text a:hover{
     background: var(--blue);
@@ -177,7 +178,7 @@ body{
     font-size: 1.2rem;
     padding: 20px 150px;
 }
-.career-text a{
+.career-text a, .card a{
     text-decoration: none;
     color: var(--white);
     background: var(--medicalblue);
@@ -313,6 +314,106 @@ footer{
         margin-top: 20px;
     }
 }
-
+/*CONTACT PAGE STYLING (DESKTOP)*/
+.contact-message{
+    text-align: center;
+}
+.contact-message h1, .card .bx{
+    font-size: 3rem;
+    color: var(--medicalblue);
+}
+.contact img{
+    width:100%;
+}
+.contact-message p{
+    font-size: 2rem;
+    color: var(--darkgrey);
+}
+.contact-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    text-align: center;
+    width: 400px;
+    padding:50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.card h2{
+    color: var(--medicalblue);
+}
+.card p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.card .contact-btn{
+    font-size: 1rem;
+}
+#support-form{
+    background-color: var(--grey);
+    height: 500px;
+    margin-top: 50px;
+}
+#sales-form{
+    background-color: var(--grey);
+    height: 500px;
+}
+.support-form, .sales-form{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 50px;
+}
+.support-form h2, .sales-form h2, .applicant-text h2{
+    font-size: 2rem;
+    color: var(--medicalblue);
+}
+.support-form p,.sales-form p{
+    font-size: 1.3rem;
+}
+.support-form textarea, .sales-form textarea{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.support-form-details h2, .sales-form-details h2{
+    text-align: center;
+}
+.support-form-details, .sales-form-details{
+    margin-top: 100px;
+}
+.support-form-details ul, .sales-form-details ul{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.support-form-details ul li, .sales-form-details ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+}
+.spprt-btn, .sls-btn, .applcnt-btn{
+    width:250px;
+}
+#applicant{
+    height: 300px;
+    padding: 50px;
+}
+.applicant{
+    display:flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 50px;
+}
+.applicant-text{
+    text-align: center;
+}
+.applicant-text p{
+    font-size: 1.2rem;
+}
 
 
