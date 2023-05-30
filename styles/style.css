@@ -163,11 +163,12 @@ footer{
 .footer{
     display:flex;
     justify-content:space-between;
-    gap:50px;
-    padding:50px 200px
+    gap:0px;
+    padding:50px 50px
 }
 .page-links h5, .address-links h5, .social-media h5{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    color:var(--medicalblue);
 }
 .footer-nav, .media{
     list-style: none;
@@ -181,7 +182,10 @@ footer{
 .media{
     display:flex;
     justify-content: space-between;
-    gap:50px
+    gap:30px;
+}
+.footer-logo{
+    width:300px;
 }
 @media(max-width:760px){
     .slides .image-overlay{
