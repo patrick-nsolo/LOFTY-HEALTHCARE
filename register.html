@@ -67,10 +67,15 @@
                 </div>
                 <div class="form-tip">
                     <label for="phone">Phone:</label>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i id="selectedFlag"></i>
+                        </span>
+                    </div>
                     <select id="countryCode" name="countryCode" required>
-                        <option value="+1">+1 (USA)</option>
-                        <option value="+44">+44 (UK)</option>
-                        <option value="+91">+91 (India)</option>
+                        <option value="+1" data-flag="us">+1 (USA)</option>
+                        <option value="+44" data-flag="uk">+44 (UK)</option>
+                        <option value="+91" data-flag="in">+91 (India)</option>
                         <!-- Add more options as needed -->
                     </select>
                     <input type="tel" id="phoneNumber" name="phoneNumber" required>

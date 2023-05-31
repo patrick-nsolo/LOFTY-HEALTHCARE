@@ -50,8 +50,16 @@ var swiper = new Swiper(".mySwiper",{
         },
     }
 });
-
 //AUTOMATIC SLIDER SCRIPT END
+document.getElementById("country-code").addEventListener("change", function(){
+    var selectedOption = this.options[this.selectedIndex];
+    var flagIcon =document.getElementById("selectedFlag");
+    flagIcon.className = "";
+    flagIcon.classList.add("flag-icon");
+    flagIcon.classList.add("flag-icon-" + selectedOption.getAttribute("data-flag"));
+});
+
+//
 
 
 
