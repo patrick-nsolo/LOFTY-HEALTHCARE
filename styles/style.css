@@ -589,15 +589,17 @@ select{
 .about-image{
     position: relative;
     display: inline-block;
+    width: 100%; 
 }
-.about-hero img{
+.about-image img{
     width: 100%;    
 }
 .about-text{
+    background: var(--white);
     position: absolute;
-    bottom:0;
+    bottom:-50px;
     right:0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+    max-width: 50%;
     
 }
