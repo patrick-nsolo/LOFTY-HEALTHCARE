@@ -491,7 +491,7 @@ footer{
     }
 }
 
-/*LOGIN PAGE STYLE*/
+/*REGISTRATION PAGE STYLE*/
 .form{
     margin-top: 50px;
     background-image: linear-gradient(to right, var(--medicalblue) , var(--deepmedicalblue));     
@@ -537,4 +537,8 @@ select{
     input{
         width:320px;
     }
+    
 }
+/*LOGIN FORM STYLE*/
+
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
