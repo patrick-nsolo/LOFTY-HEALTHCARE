@@ -319,14 +319,14 @@ footer{
     text-align: center;
 }
 .contact-message h1, .card .bx{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--medicalblue);
 }
 .contact img{
     width:100%;
 }
 .contact-message p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--darkgrey);
 }
 .contact-cards{
@@ -478,5 +478,29 @@ footer{
         text-align: center;
         margin-top: 0;
     }
+}
 
+/*LOGIN PAGE STYLE*/
+.form{
+    margin-top: 50px;
+    background-image: linear-gradient(to right, var(--medicalblue) , var(--deepmedicalblue));     
+    padding:40px 100px;
+    text-align: center;
+}
+.form h2{
+    font-size:2rem;
+    color: var(--white);   
+}
+.names-section, .contacts-section{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 20px;   
+}
+.form-tip{
+    display: flex;
+    gap:20px;
+}
+label{
+    display: block;
+    margin-top: 20px;
 }
