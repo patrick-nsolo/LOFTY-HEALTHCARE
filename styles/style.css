@@ -584,7 +584,20 @@ select{
 /*ABOUT PAGE STYLING (DESKTOP)*/
 .about-hero{
     width: 100%;
+    position: relative;
+}
+.about-image{
+    position: relative;
+    display: inline-block;
 }
 .about-hero img{
     width: 100%;    
+}
+.about-text{
+    position: absolute;
+    bottom:0;
+    right:0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
 }
