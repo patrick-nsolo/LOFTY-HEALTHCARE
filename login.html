@@ -75,32 +75,33 @@
                     <input type="tel" id="phoneNumber" name="phoneNumber" required>
                 </div>   
             </div>
+            <div class="address">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="uploads">
+                <label for="email">Upload CV:</label>
+                <input type="file" id="cv" name="cv" required>
 
-            
+                <label for="picture">Upload Picture:</label>
+                <input type="file" id="picture" name="picture" required>
+            </div>
+            <div>
+                <label for="profession">Medical Profession:</label>
+                <select id="profession" name="profession" required>
+                    <option value="">Select a profession</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="nurse">Nurse</option>
+                    <option value="pharmacist">Pharmacist</option>
+                    <option value="care-giver">Care Giver</option>
+                    <option value="lab-officer">Laboratory Officer</option>
+                    <option value="janitor">Janitor</option>
+                    <option value="midwife">Midwife</option>
+                    <!-- Add more options as needed -->
+                </select>
 
-            
-
-            
-
-            <label for="address">Address:</label>
-            <input type="text" id="address" name="address" required>
-
-            <label for="email">Upload CV:</label>
-            <input type="file" id="cv" name="cv" required>
-
-            <label for="picture">Upload Picture:</label>
-            <input type="file" id="picture" name="picture" required>
-
-            <label for="profession">Medical Profession:</label>
-            <select id="profession" name="profession" required>
-                <option value="">Select a profession</option>
-                <option value="doctor">Doctor</option>
-                <option value="nurse">Nurse</option>
-                <option value="pharmacist">Pharmacist</option>
-                <!-- Add more options as needed -->
-            </select>
-
-            <button type="submit">Submit</button>
+                <button type="submit">Submit</button>
+            </div>    
         </form>
     </div>
     <footer>
