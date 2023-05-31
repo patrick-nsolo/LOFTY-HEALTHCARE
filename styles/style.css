@@ -527,3 +527,12 @@ select{
 .reg-btn:hover{
     background: var(--blue);
 }
+@media(max-width:760px){
+    .form{
+        padding: 20px;
+    }
+    .form h2{
+        font-size: 2rem;
+
+    }
+}
