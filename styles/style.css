@@ -116,7 +116,7 @@ body{
     line-height: 25px;
     font-size:1.2rem;
 }
-.about-text a, .why-us-text a{
+.about-text a{
     text-decoration: none;
     color: var(--white);
     background: var(--medicalblue);
@@ -514,7 +514,7 @@ input{
 select{
     height:40px;
 }
-.reg-btn{
+.reg-btn,.login-btn{
     margin-top: 20px;
     height: 50px;
     width: 200px;
@@ -544,9 +544,21 @@ select{
     justify-content: center;
     height: 400px;
     background-image: url(/images/why-background.png);
-    padding: 50px 50px;
+    padding: 20px 50px;
 }
 .login-form{
     padding: 50px 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 350px;
+}
+.login-btn {
+    text-decoration: none;
+    color: var(--white);
+    background: transparent;
+    padding: 14px 32px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition:0.5s ease-out;
+    margin-top: 40px;
+    border: 1px solid black;
 }
