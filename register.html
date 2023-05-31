@@ -37,9 +37,73 @@
         </div>
     </header> 
     <hr class="line">                          
-    <main>
-            
-    </main> 
+    <section class="container">
+        <div class="contact">
+            <img src="/images/lhcstaff.png" class="contact-hero" alt="a-picture-depicting-lofty-staff-members"/>
+        </div>
+        <div class="contact-message">
+            <h1 class="slide-in-right">Join our excellent work force.</h1>
+            <p class="slide-in-left">Fill in your details below. </p>
+        </div>
+    </section>
+    <div class="form">
+        <h2>Become an LHC hero, It all starts here.</h2>
+        <form action="/submit-applicaton " method="POST" enctype="multipart/form-data">
+            <div class="names-section">
+                <div class="form-tip">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-tip">
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>   
+            </div>
+            <div class="contacts-section">
+                <div class="form-tip">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-tip">
+                    <label for="phone">Phone:</label>
+                    <select id="countryCode" name="countryCode" required>
+                        <option value="+1">+1 (USA)</option>
+                        <option value="+44">+44 (UK)</option>
+                        <option value="+91">+91 (India)</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>   
+            </div>
+            <div class="address">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="uploads">
+                <label for="email">Upload CV:</label>
+                <input type="file" id="cv" name="cv" required>
+
+                <label for="picture">Upload Picture:</label>
+                <input type="file" id="picture" name="picture" required>
+            </div>
+            <div>
+                <label for="profession">Medical Profession:</label>
+                <select id="profession" name="profession" required>
+                    <option value="">Select a profession</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="nurse">Nurse</option>
+                    <option value="pharmacist">Pharmacist</option>
+                    <option value="care-giver">Care Giver</option>
+                    <option value="lab-officer">Laboratory Officer</option>
+                    <option value="janitor">Janitor</option>
+                    <option value="midwife">Midwife</option>
+                    <!-- Add more options as needed -->
+                </select>
+
+                <button type="submit">Submit</button>
+            </div>    
+        </form>
+    </div>
     <footer>
         <div class="footer">
             <div class="page-links">
