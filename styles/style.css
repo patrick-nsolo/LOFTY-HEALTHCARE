@@ -565,3 +565,16 @@ select{
 .login-btn:hover{
     background-color: var(--blue);
 }
+.login-links{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-links a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--black);
+}
+.login-links a:hover{
+    text-decoration: underline;
+}
