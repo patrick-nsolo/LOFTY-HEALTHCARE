@@ -368,7 +368,7 @@ footer{
 .support-form, .sales-form{
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 30px;
 }
 .support-form h2, .sales-form h2, .applicant-text h2{
     font-size: 2rem;
@@ -386,7 +386,7 @@ footer{
 }
 .support-form textarea, .sales-form textarea{
     width: 420px;
-    height: 150px;
+    height: 100px;
     padding: 10px;
     margin-top: 20px;
 }
@@ -401,7 +401,7 @@ footer{
     font-size: 1rem;
     transition:0.5s ease-out;
 }
-.spprt-btn:hover, .sls-btn:hover, .applcnt-btn:hover{
+.spprt-btn:hover, .sls-btn:hover{
     background-color: var(--blue);
     cursor: pointer;
 }
@@ -421,7 +421,6 @@ footer{
     text-align: center;
     font-style: italic;
 }
-
 #applicant{
     height: 300px;
     padding: 50px;
@@ -439,7 +438,14 @@ footer{
     font-size: 1.2rem;
 }
 .applcnt-btn{
-
+    background-color: var(--medicalblue);
+    padding:15px 30px;
+    height:50px;
+    text-decoration: none;
+    color: var(--white);
+}
+.applcnt-btn:hover{
+    background: var(--blue);
 }
 /*CONTACT PAGE STYLING (MOBILE)*/
 @media(max-width:760px){
