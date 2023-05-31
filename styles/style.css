@@ -532,7 +532,9 @@ select{
         padding: 20px;
     }
     .form h2{
-        font-size: 2rem;
-
+        font-size: 1.5rem;
+    }
+    input{
+        width:320px;
     }
 }
