@@ -536,9 +536,16 @@ select{
     }
     input{
         width:320px;
-    }
-    
+    }    
 }
 /*LOGIN FORM STYLE*/
-
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+#login-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.login-form{
+    
+    padding: 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
