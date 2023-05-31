@@ -582,4 +582,9 @@ select{
 
 
 /*ABOUT PAGE STYLING (DESKTOP)*/
-
+.about-hero{
+    width: 100%;
+}
+.about-hero img{
+    width: 100%;    
+}
