@@ -638,8 +638,7 @@ select{
     left:0;
     align-items: flex-end;
     width: 100%;
-    gap:50px;
-   
+    gap:50px;   
 }
 .value-card{
     width: 300px;
@@ -654,5 +653,10 @@ select{
 }
 .value-card h2{
     color:var(--medicalblue);
-
+}
+#mission-and-vision{
+    margin-top: 50px;
+}
+.mission-and-vision img{
+    width:500px;
 }
