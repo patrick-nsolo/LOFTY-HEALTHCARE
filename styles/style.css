@@ -613,19 +613,42 @@ select{
 }
 .values{
     margin-top: 50px;
+    position: relative;
 }
 .values-image {
-    text-align: center;   
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    align-items: flex-end;
+    
 }
 .values-image img{
     height:300px;
+    
 }
 .value-cards{
     display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom:0;
+    left:0;
+    align-items: flex-end;
+    width: 100%;
+    gap:50px;
+   
 }
 .value-card{
     width: 300px;
     height: 150px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding:25px 20px;
+    background-color: var(--white);
+    transition: all 0.5s ease-out;
+}
+.value-card:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.value-card h2{
+    color:var(--medicalblue);
+
 }
