@@ -615,16 +615,19 @@ select{
     margin-top: 50px;
     position: relative;
 }
+.values-title{
+    font-size: 2rem;
+    color: var(--medicalblue);
+    text-align: center;
+}
 .values-image {
     display: flex;
     justify-content: center;
     position: relative; 
-    align-items: flex-end;
-    
+    align-items: flex-end;   
 }
 .values-image img{
-    height:300px;
-    
+    height:300px;   
 }
 .value-cards{
     display: flex;
