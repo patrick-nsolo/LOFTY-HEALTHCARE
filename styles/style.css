@@ -624,7 +624,8 @@ select{
     display: flex;
     justify-content: center;
     position: relative; 
-    align-items: flex-end;   
+    align-items: flex-end;  
+    margin-top: 50px; 
 }
 .values-image img{
     height:300px;   
