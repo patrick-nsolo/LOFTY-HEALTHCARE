@@ -655,8 +655,17 @@ select{
     color:var(--medicalblue);
 }
 #mission-and-vision{
-    margin-top: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding:25px 95px;
 }
-.mission-and-vision img{
+.mission-and-vision img, .mission-and-vision-text{
     width:500px;
+}
+.mission-text h2, .vision-text h2{
+    color: var(--medicalblue);
+}
+.mission-text, .vision-text{
+    margin-top: 50px;
 }
