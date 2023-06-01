@@ -611,3 +611,12 @@ select{
     margin-top: 20px;
     line-height: 30px;
 }
+.values{
+    margin-top: 50px;
+}
+.values-image {
+    text-align: center;   
+}
+.values-image img{
+    height:300px;
+}
