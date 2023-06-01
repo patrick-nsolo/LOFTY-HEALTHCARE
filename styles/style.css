@@ -620,3 +620,6 @@ select{
 .values-image img{
     height:300px;
 }
+.value-cards{
+    display: flex;
+}
