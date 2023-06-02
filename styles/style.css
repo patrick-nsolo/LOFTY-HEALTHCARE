@@ -672,6 +672,7 @@ select{
 /*CLIENTS PAGE STYLE*/
 #lhc-clients{
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 #lhc-clients h2{
     text-align: center;
@@ -702,20 +703,22 @@ select{
     }
 }
 .lhc-clients-text{
-    display:flex;
-    justify-content: space-between;
     position: relative;
-    padding:20px 200px;
+    left:20%;
 }
 .lhc-clients-text p{
     position:absolute ;
     z-index: 1;
-    top: 0;
-    left: 0;
-    margin-top: 50px;
+    top: 10%;
+    left: 30%;
+    margin-right: 10px;
+    max-width: calc(100% - 20px);
     background-color: var(--white);
+    width:500px;
+    padding: 30px;
 }
 .lhc-clients-text img{
     width:500px;
-    position: relative;
+    
+    
 }
