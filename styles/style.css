@@ -702,7 +702,7 @@ select{
       transform: translateX(-100%);
     }
 }
-.lhc-clients-text{
+.lhc-clients-text-one{
     position: relative;
     left:20%;
 }
