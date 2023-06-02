@@ -704,7 +704,7 @@ select{
 }
 .lhc-clients-text-one{
     position: relative;
-    left:20%;
+    left:5%;
 }
 .lhc-clients-text-one p{
     position:absolute ;
@@ -735,4 +735,7 @@ select{
     background-color: var(--white);
     width:500px;
     padding: 50px;
+}
+.lhc-clients-text-two img{
+    width:500px;   
 }
