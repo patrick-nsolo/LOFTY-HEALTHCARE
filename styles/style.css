@@ -703,4 +703,12 @@ select{
 }
 .lhc-clients-text{
     display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.lhc-clients-text p{
+    margin-top: 50px;
+}
+.lhc-clients-text img{
+    width:500px;
 }
