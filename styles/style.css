@@ -705,6 +705,7 @@ select{
 .lhc-clients-text-one{
     position: relative;
     left:10%;
+    margin-top: 50px;
 }
 .lhc-clients-text-one p{
     position:absolute ;
