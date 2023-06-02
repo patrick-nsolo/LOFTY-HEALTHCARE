@@ -709,13 +709,13 @@ select{
 .lhc-clients-text p{
     position:absolute ;
     z-index: 1;
-    top: 10%;
+    top: 70%;
     left: 30%;
     margin-right: 10px;
     max-width: calc(100% - 20px);
     background-color: var(--white);
     width:500px;
-    padding: 30px;
+    padding: 50px;
 }
 .lhc-clients-text img{
     width:500px;
