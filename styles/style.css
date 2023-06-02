@@ -669,3 +669,34 @@ select{
 .mission-text, .vision-text{
     margin-top: 50px;
 }
+#lhc-clients{
+    margin-top: 50px;
+}
+#lhc-clients h2{
+    text-align: center;
+    color: var(--medicalblue);
+    font-size: 2.5rem;
+}
+.carousel{
+    width:100%;
+    overflow: hidden;
+    padding:50px 200px;
+}
+.carousel-inner{
+    display:flex;
+    justify-content: space-between;
+    gap:100px;
+    animation: scroll 15s linear infinite;
+}
+.carousel-inner img{
+    width:500px;
+    height: 100px;
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
