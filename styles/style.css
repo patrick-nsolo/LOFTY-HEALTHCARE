@@ -669,6 +669,7 @@ select{
 .mission-text, .vision-text{
     margin-top: 50px;
 }
+/*CLIENTS PAGE STYLE*/
 #lhc-clients{
     margin-top: 50px;
 }
@@ -692,11 +693,14 @@ select{
     width:500px;
     height: 100px;
 }
-@keyframes scroll {
+@keyframes scroll{
     0% {
       transform: translateX(100%);
     }
     100% {
       transform: translateX(-100%);
     }
-  }
+}
+.lhc-clients-text{
+    display:flex;
+}
