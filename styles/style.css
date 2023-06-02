@@ -706,7 +706,7 @@ select{
     position: relative;
     left:20%;
 }
-.lhc-clients-text p{
+.lhc-clients-text-one p{
     position:absolute ;
     z-index: 1;
     top: 70%;
@@ -717,8 +717,22 @@ select{
     width:500px;
     padding: 50px;
 }
-.lhc-clients-text img{
+.lhc-clients-text-one img{
+    width:500px;   
+}
+.lhc-clients-text-two{
+    position: relative;
+    left:20%;
+    margin-top: 100px;
+}
+.lhc-clients-text-two p{
+    position:absolute ;
+    z-index: 1;
+    top: 70%;
+    left: 30%;
+    margin-right: 10px;
+    max-width: calc(100% - 20px);
+    background-color: var(--white);
     width:500px;
-    
-    
+    padding: 50px;
 }
