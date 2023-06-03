@@ -700,7 +700,7 @@ select{
         margin-top: 200px;
     }
     .mission-and-vision-text{
-        margin-top: 0;
+        margin:10px 0;
         width:300px;
         text-align: center;
         margin-left: 40px;
