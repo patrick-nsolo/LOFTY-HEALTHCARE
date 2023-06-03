@@ -669,6 +669,26 @@ select{
 .mission-text, .vision-text{
     margin-top: 50px;
 }
+@media(max-width:760px){
+    .about-lhc-text{
+        top: 70%;
+        left:0;
+        max-width:400px;
+        padding: 0px;
+    }
+    .about-lhc-text h2{
+        color:var(--medicalblue);
+        font-size: 2rem;
+    }
+    .about-lhc-text p{
+        padding: 20px;
+        margin-top: 0;
+        line-height: 20px;
+    } 
+    .values{
+        margin-top: 350px;
+    }   
+}
 /*CLIENTS PAGE STYLE*/
 #lhc-clients{
     margin-top: 50px;
@@ -767,5 +787,13 @@ select{
         left: 0;
         width:300px;
         padding: 20px;
+    }
+    @keyframes scroll{
+        0% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
     }
 }
