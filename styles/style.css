@@ -699,7 +699,11 @@ select{
         margin-bottom: 50px;
     }
     .value-cards{
-        display:none;
+        display:inline-block;
+        position: absolute;
+        bottom:0;
+        left:10%;
+        width: 100%;
     }
     .values-image img{
         width:100%;
