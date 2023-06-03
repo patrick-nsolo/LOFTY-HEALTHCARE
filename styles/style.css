@@ -515,6 +515,11 @@ input{
 select{
     height:40px;
 }
+.radio{
+    display: flex;
+} label input{
+    font-size:10px;
+}
 .reg-btn,.login-btn{
     margin-top: 20px;
     height: 50px;
