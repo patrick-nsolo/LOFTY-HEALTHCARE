@@ -701,6 +701,7 @@ select{
     .value-cards{
         display:inline-block;
         position: absolute;
+        margin:10px 0;
         bottom:0;
         left:10%;
         width: 100%;
