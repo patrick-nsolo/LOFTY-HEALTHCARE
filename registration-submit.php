@@ -13,6 +13,16 @@ if ($conn->connection_error){
 }
 
 //Retrieve form data
-$userName = $_POST['user-name']
+$userName = $_POST['user-name'];
+$password = $_POST['password'];
+$confirmPassword = $_POST['confirm-password'];
+$firstName = $_POST['first-name'];
+$surname = $_POST['surname'];
+$email = $_POST['email'];
+$countryCode = $_POST['country-code'];
+$phoneNumber = $_POST['phone-number'];
+$address = $_POST['address'];
+$profession = $_POST['profession'];
+
 
 ?>
