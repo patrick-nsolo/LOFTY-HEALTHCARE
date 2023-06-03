@@ -34,8 +34,18 @@ if ($conn->query(sql) === true){
     $to = $email;
     $subject = "Registration Successful";
     $message = "thanks for registering with LHC,Your registration is successful. Your username is: $userName and password is: $password";
+    $headers = "From: patricknsolo@gmail.com";
 
+    mail($to, $subject, $message, $headers);
+
+    // Redirect the user to a success page
+    header("Location: success.html");
+    exit;
+
+} else {
+    //Registration failed
+    echo "Error: " . $sql . "<br>" . $conn->error;
 }
-
+$conn->close();
 
 ?>
