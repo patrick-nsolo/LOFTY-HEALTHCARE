@@ -28,5 +28,14 @@ $profession = $_POST['profession'];
 $sql = "INSERT INTO registrations (userName, password, confirmPassword, firstName, surname, email, countryCode, phoneNumber, address, profession )
         VALUES ($userName, $password, $confirmPassword, $firstName, $surname, $email, $countryCode, $phoneNumber, $address, $profession )";
 
+if ($conn->query(sql) === true){
+    //registration successful
+    //email user
+    $to = $email;
+    $subject = "Registration Successful";
+    $message = "thanks for registering with LHC,Your registration is successful. Your username is: $userName and password is: $password";
+
+}
+
 
 ?>
