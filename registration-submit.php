@@ -7,4 +7,12 @@ $dbname = "registrationDB";
 
 $conn = new mysqli($servername,$username,$password,$dbname);
 
+//Check connection
+if ($conn->connection_error){
+    die("Connection failed: " , $conn->connect_error);
+}
+
+//Retrieve form data
+$userName = $_POST['user-name']
+
 ?>
