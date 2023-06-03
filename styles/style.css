@@ -694,6 +694,15 @@ select{
     }  
     .mission-and-vision img, .mission-and-vision-text{
         width:300px;
+        text-align: center;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+    .value-cards{
+        display:none;
+    }
+    .values-image img{
+        width:100%;
     }
 }
 /*CLIENTS PAGE STYLE*/
