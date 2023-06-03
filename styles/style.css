@@ -763,11 +763,9 @@ select{
         margin-top: 200px;
     }
     .lhc-clients-text-two p{
-        position:absolute ;
-        z-index: 1;
         top: 70%;
         left: 0;
         width:300px;
-        padding: 50px;
+        padding: 20px;
     }
 }
