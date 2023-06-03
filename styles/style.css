@@ -748,4 +748,18 @@ select{
     .carousel-inner{
         gap:10px;
     }
+    .lhc-clients-text-one img{
+        width:300px;   
+    }
+    .lhc-clients-text-one p{
+        position:absolute ;
+        z-index: 1;
+        top: 70%;
+        left: 0;
+        margin-right: 10px;
+        max-width: calc(100% - 20px);
+        background-color: var(--white);
+        width:500px;
+        padding: 50px;
+    }
 }
