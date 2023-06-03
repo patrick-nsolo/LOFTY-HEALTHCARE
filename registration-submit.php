@@ -24,5 +24,9 @@ $phoneNumber = $_POST['phone-number'];
 $address = $_POST['address'];
 $profession = $_POST['profession'];
 
+//Insert formdata into DB
+$sql = "INSERT INTO registrations (userName, password, confirmPassword, firstName, surname, email, countryCode, phoneNumber, address, profession )
+        VALUES ($userName, $password, $confirmPassword, $firstName, $surname, $email, $countryCode, $phoneNumber, $address, $profession )";
+
 
 ?>
