@@ -687,7 +687,14 @@ select{
     } 
     .values{
         margin-top: 400px;
-    }   
+    } 
+    #mission-and-vision{
+        display: inline-block;
+        padding:0;
+    }  
+    .mission-and-vision img, .mission-and-vision-text{
+        width:300px;
+    }
 }
 /*CLIENTS PAGE STYLE*/
 #lhc-clients{
