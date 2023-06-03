@@ -692,7 +692,15 @@ select{
         display: inline-block;
         padding:0;
     }  
-    .mission-and-vision img, .mission-and-vision-text{
+    .mission-and-vision img{
+        width:300px;
+        text-align: center;
+        margin-left: 40px;
+        
+        margin-top: 200px;
+    }
+    .mission-and-vision-text{
+        margin-top: 0;
         width:300px;
         text-align: center;
         margin-left: 40px;
@@ -702,6 +710,7 @@ select{
         display:inline-block;
         position: absolute;
         margin:10px 0;
+        top:0;
         bottom:0;
         left:10%;
         width: 100%;
