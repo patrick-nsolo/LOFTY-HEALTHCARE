@@ -731,7 +731,6 @@ select{
     z-index: 1;
     top: 0;
     left: -30%;
-    
     max-width: calc(100% - 20px);
     background-color: var(--white);
     width:500px;
@@ -748,7 +747,7 @@ select{
     .carousel-inner{
         gap:10px;
     }
-    .lhc-clients-text-one img{
+    .lhc-clients-text-one img, .lhc-clients-text-two img{
         width:300px;   
     }
     .lhc-clients-text-one p{
@@ -757,5 +756,18 @@ select{
         margin-right: 0;
         width:300px;
         padding: 20px;
+    }
+    .lhc-clients-text-two{
+        position: relative;
+        left:10%;
+        margin-top: 200px;
+    }
+    .lhc-clients-text-two p{
+        position:absolute ;
+        z-index: 1;
+        top: 70%;
+        left: 0;
+        width:300px;
+        padding: 50px;
     }
 }
