@@ -745,4 +745,7 @@ select{
         padding: 0;
         margin-top: 30px;
     }
+    .carousel-inner{
+        gap:10px;
+    }
 }
