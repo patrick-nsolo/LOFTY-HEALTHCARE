@@ -79,8 +79,8 @@ const path = require('path');
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
-    database: 'registrationDB'
+    password: '1234',
+    database: 'registrants'
 });
 //connect to DB
 db.connect((err) => {

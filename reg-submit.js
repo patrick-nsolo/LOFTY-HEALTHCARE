@@ -19,4 +19,16 @@ connection.connect((err) => {
         return;
     }
     console.log('Connected to MySQL');
-})
+});
+
+//middleware to parse incoming request bodies as json
+app.use(express.json());
+
+//serve static files
+app.use(express.static('public'));
+
+//start the server
+app.listen(port, () => {
+    console.log('Server running on port ${port}');
+});
+
