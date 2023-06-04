@@ -8,8 +8,8 @@ $dbname = "registrationDB";
 $conn = new mysqli($servername,$username,$password,$dbname);
 
 //Check connection
-if ($conn->connection_error){
-    die("Connection failed: " , $conn->connect_error);
+if (!$conn){
+    die("Connection failed: " .mysqli_connect_error);
 }
 
 //Retrieve form data
@@ -25,27 +25,23 @@ $phoneNumber = $_POST['phone-number'];
 $address = $_POST['address'];
 $profession = $_POST['profession'];
 
-//Insert formdata into DB
-$sql = "INSERT INTO registrations (userName, password, confirmPassword, firstName, surname, gender, email, countryCode, phoneNumber, address, profession )
-        VALUES ($userName, $password, $confirmPassword, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession )";
 
-if ($conn->query(sql) === true){
+if (mysqli_query($conn, $sql)){
     //registration successful
     //email user
     $to = $email;
     $subject = "Registration Successful";
-    $message = "thanks for registering with LHC,Your registration is successful. Your username is: $userName and password is: $password";
+    $message = "Thanks for registering with LHC,Your registration is successful. Your username is: $userName and password is: $password";
     $headers = "From: patricknsolo@gmail.com";
 
     mail($to, $subject, $message, $headers);
 
     // Redirect the user to a success page
-    header("Location: success.html");
-    exit;
+    echo "Thanks for registering with LHC,Your registration is successful. Your username is: $userName and password is: $password""
 
 } else {
     //Registration failed
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: " . $sql . "<br>" . 
 }
 $conn->close();
 

@@ -675,6 +675,15 @@ select{
 .mission-text, .vision-text{
     margin-top: 50px;
 }
+.checkbox{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;    
+    
+        
+}
 @media(max-width:760px){
     .about-lhc-text{
         top: 70%;
