@@ -79,7 +79,7 @@ const path = require('path');
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '1234',
+    password: 'Ed/12c/2625',
     database: 'registrants'
 });
 //connect to DB
