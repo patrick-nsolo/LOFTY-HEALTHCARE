@@ -69,13 +69,4 @@ function togglePasswordVisibility(){
     }
 }  
 //FORM ENTRY POINT SCRIPT
-const express = require('express');
-const bodyParser = require('body-parser');
-const routes = require('../javascript/route');
-app = express();
-app.use(bodyParser.urlencoded({extended:true}));
-app.use(express.static('forms'));
-app.use('/', routes);
-app.listen(3000, (req,res) =>{
-    console.log("Up and Running!");
-});
+
