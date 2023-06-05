@@ -70,7 +70,7 @@ function togglePasswordVisibility(){
 }  
 //FORM 
 const express = require('express');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const bodyParser = require('body-parser'); 
 const multer = require('multer');
 const path = require('path');
@@ -80,7 +80,8 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'Ed/12c/2625',
-    database: 'registrants'
+    database: 'registrants',
+    authPlugins: {}
 });
 //connect to DB
 db.connect((err) => {
