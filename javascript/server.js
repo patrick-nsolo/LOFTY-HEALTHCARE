@@ -13,10 +13,33 @@ const pool = mysql.createPool({
     database: 'registration',
 });
 
+// Verify the MySQL connection
+pool.getConnection((err, connection) => {
+    if (err) {
+      console.error('Error connecting to MySQL:', err);
+      return;
+    }
+  
+    console.log('Connected to MySQL!');
+  
+    // Perform a test query
+    connection.query('SELECT 1 + 1 AS result', (err, results) => {
+      connection.release(); // Release the connection back to the pool
+  
+      if (err) {
+        console.error('Error executing query:', err);
+        return;
+      }
+  
+      console.log('MySQL query result:', results[0].result);
+    });
+  });
+  
+
 //Define a route to handle the form submission
 app.post('/register', upload.fields([{ name: 'cv', maxCount: 1 }, { name: 'picture', maxCount: 1 }]),(req,res) => {
     const{
-        username,
+        'user-name': username,
         password,
         'confirm-password': confirmPassword,
         'first-name': firstName,
@@ -32,8 +55,8 @@ app.post('/register', upload.fields([{ name: 'cv', maxCount: 1 }, { name: 'pictu
     // Validate the form data (e.g., check if passwords match, validate email format, etc.)
     // Insert the data into the database
     const query = `
-      INSERT INTO registration form details
-      (USER NAME, PASSWORD, CONFIRM PASSWORD, FIRST NAME, SURNAME, GENDER, EMAIL, COUNTRY CODE, PHONE NUMBER, ADDRESS, CV, PICTURE, PROFESSION)
+      INSERT INTO registration_form_details
+      (username, password, confirm_password, first_name, surname, gender, email, country_code, phone_number, address, cv, picture, profession)
       VALUES
       (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `;
@@ -42,7 +65,7 @@ app.post('/register', upload.fields([{ name: 'cv', maxCount: 1 }, { name: 'pictu
     const picturePath = req.files['PICTURE'][0].path;
 
     pool.query(
-        query,[ USERNAME, PASSWORD, CONFIRMPASSWORD, FIRSTNAME, SURNAME, GENDER, EMAIL, COUNTRYCODE, PHONENUMBER, ADDRESS, CV, PICTURE, PROFESSION],
+        query,[ username, password, confirmPassword, firstName, surname, gender, email, countryCode, phoneNumber, address, cvPath, picturePath, profession],
         (err, results) => {
             if (err) {
                 console.error('Error inserting data:', err);
