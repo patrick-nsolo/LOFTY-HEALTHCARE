@@ -26,8 +26,8 @@
                     <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Our Team</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="login.html" class="btn nav-link button">Login</a></li> 
-                    <li class="nav-item"><a href="register.html" class="btn nav-link button reg-btn">Register</a></li>       
+                    <li class="nav-item"><a href="login.html" class="btn nav-link button">Login</a></li>
+                    <li class="nav-item"><a href="register.html" class="btn nav-link button reg-btn">Register</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -36,8 +36,8 @@
                 </div>
             </nav>
         </div>
-    </header> 
-    <hr class="line">                          
+    </header>
+    <hr class="line">
     <section class="container">
         <div class="contact">
             <img src="/images/lhcstaff.png" class="contact-hero" alt="a-picture-depicting-lofty-staff-members"/>
@@ -49,7 +49,7 @@
     </section>
     <div class="form" id="register">
         <h2>Become an LHC hero, It all starts here.</h2>
-        <form id="registration-form" action="/register" method="post" enctype="multipart/form-data">
+        <form id="registration-form" action="includes/register.inc.php" method="post" enctype="multipart/form-data">
             <div class="names-section">
                 <div class="form-tip">
                     <label for="user-name">User Name:</label>
@@ -59,12 +59,12 @@
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" required>
                     <input class="checkbox" type="checkbox" onclick="togglePasswordVisibility()">Show Password
-                </div>  
+                </div>
                 <div class="form-tip">
                     <label for="confirm-password">Confirm Password:</label>
                     <input type="password" id="confirm-password" name="confirm-password" required>
                     <input class="checkbox" type="checkbox" onclick="togglePasswordVisibility()">Show Password
-                </div>  
+                </div>
             </div>
             <div class="names-section">
                 <div class="form-tip">
@@ -74,7 +74,7 @@
                 <div class="form-tip">
                     <label for="surname">Surname:</label>
                     <input type="text" id="surname" name="surname" required>
-                </div>  
+                </div>
                 <div class="form-tip">
                     <label for="gender">Gender:</label>
                     <select id="gender" name="gender" required>
@@ -83,7 +83,7 @@
                         <option value="others">Others</option>
                         <!-- Add more options as needed -->
                     </select>
-                </div>  
+                </div>
             </div>
             <div class="contacts-section">
                 <div class="form-tip">
@@ -105,7 +105,7 @@
                         <!-- Add more options as needed -->
                     </select>
                     <input type="tel" id="phoneNumber" name="phoneNumber" required>
-                </div>   
+                </div>
             </div>
             <div class="address">
                 <label for="address">Address:</label>
@@ -132,7 +132,7 @@
                     <!-- Add more options as needed -->
                 </select>
             </div>
-            <button type="submit" class="reg-btn" value="register">Submit</button>    
+            <button type="submit" class="reg-btn" value="register" name="submit">Submit</button>
         </form>
     </div>
     <footer>
@@ -148,7 +148,7 @@
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="login.html">Login</a></li>
                     <li><a href="register.html">Register</a></li>
-                </ul>    
+                </ul>
             </div>
             <div class="address-links">
                 <h5>Lofty Healthcare</h5>
@@ -157,7 +157,7 @@
                     <li><i class="bx bx-phone bx-sm"></i>+447366469803</li>
                     <li><i class="bx bx-envelope bx-sm"></i>info@loftyhealthcare.com</li>
                     <li><i class="bx bx-time bx-sm"></i>8:00am - 5:00pm</li>
-                </ul>    
+                </ul>
             </div>
             <div class="social-media">
                 <h5>Social Media</h5>
@@ -182,14 +182,14 @@
                             <i class="bx bxl-whatsapp bx-md"></i>
                         </a>
                     </li>
-                </ul>   
+                </ul>
             </div>
             <a href="index.html"><img class="footer-logo" src="/images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
-        </div>   
-    </footer> 
+        </div>
+    </footer>
     <attribute class="attribute">
         <p>&copy; 2023. Lofty HealthCare. All rights reserved.| Powered by <a class="aurora" href="https://www.auroradigitalsolutions.ng">Aurora Digital Solutions</a></p>
-    </attribute> 
+    </attribute>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="/javascript/app.js"></script>
     <script src="/javascript/server.js"></script>
