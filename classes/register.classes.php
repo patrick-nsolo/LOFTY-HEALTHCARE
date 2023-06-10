@@ -14,7 +14,7 @@ class Register extends Dbh
 
     if (!$stmt->execute(array($userName, $hashedPwd, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession))) {
       $stmt = null;
-      header("Location: ../register.html?error=stmtfailed");
+      header("Location: ../register.php?error=stmtfailed");
       exit();
     }
     $stmt = null;
@@ -27,7 +27,7 @@ class Register extends Dbh
 
     if (!$stmt->execute(array($userName, $email))) {
       $stmt = null;
-      header("Location: ../register.html?error=stmtfailed");
+      header("Location: ../register.php?error=stmtfailed");
       exit();
     }
 

@@ -49,6 +49,22 @@
     </section>
     <div class="form" id="register">
         <h2>Become an LHC hero, It all starts here.</h2>
+
+        <?php
+        // Check if an error message is present in the URL query parameters
+        if (isset($_GET['error']) && $_GET['error'] === 'passwordnotmatch') {
+            echo '<p style="color:red">Password must match!</p>';
+         }
+
+        if (isset($_GET['error']) && $_GET['error'] === 'invalidemail') {
+             echo '<p style="color:red">Please enter a valid email!</p>';
+          }
+
+        if (isset($_GET['error']) && $_GET['error'] === 'usernameexists') {
+             echo '<p style="color:red">Username or email already exists!</p>';
+          }
+        ?>
+
         <form id="registration-form" action="includes/register.inc.php" method="post" enctype="multipart/form-data">
             <div class="names-section">
                 <div class="form-tip">

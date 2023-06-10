@@ -58,7 +58,7 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-    $mail->setFrom('info@zeikdevelopment.buzz', 'Your Name');
+    $mail->setFrom('info@loftyhealthcare.com', 'Lofty HealthCare');
     $mail->addAddress($email);
 
     $mail->Subject = 'Registration Confirmation';
@@ -73,7 +73,7 @@ try {
 
 // go back to login page
 
-header("Location: ../login.html?error=none");
+header("Location: ../login.php?error=none");
 
 }
 

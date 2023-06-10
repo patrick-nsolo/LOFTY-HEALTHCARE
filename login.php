@@ -25,8 +25,8 @@
                     <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Our Team</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="login.html" class="btn nav-link button">Login</a></li> 
-                    <li class="nav-item"><a href="register.html" class="btn nav-link button reg-btn">Register</a></li>       
+                    <li class="nav-item"><a href="login.html" class="btn nav-link button">Login</a></li>
+                    <li class="nav-item"><a href="register.html" class="btn nav-link button reg-btn">Register</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -35,10 +35,16 @@
                 </div>
             </nav>
         </div>
-    </header> 
+    </header>
     <hr class="line">
     <section id="login-form">
         <form class="login-form">
+    <?php
+    // Check if an error message is present in the URL query parameters
+    if (isset($_GET['error']) && $_GET['error'] === 'none') {
+        echo '<p style="color:green">Registration successful!</p>';
+     }
+    ?>
             <h2>Login</h2>
             <div class="names-section">
                 <div class="form-tip">
@@ -48,7 +54,7 @@
                 <div class="form-tip">
                     <label for="Password">Password:</label>
                     <input type="text" id="password" name="password" required>
-                </div>   
+                </div>
             </div>
             <button type="submit" class="login-btn">Submit</button>
             <div class="login-links">
@@ -56,8 +62,8 @@
                 <a href="register.html">New to LHC? Sign up</a>
             </div>
         </form>
-        
-    </section>                          
+
+    </section>
     <footer>
         <div class="footer">
             <div class="page-links">
@@ -71,7 +77,7 @@
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="login.html">Login</a></li>
                     <li><a href="register.html">Register</a></li>
-                </ul>    
+                </ul>
             </div>
             <div class="address-links">
                 <h5>Lofty Healthcare</h5>
@@ -80,7 +86,7 @@
                     <li><i class="bx bx-phone bx-sm"></i>+447366469803</li>
                     <li><i class="bx bx-envelope bx-sm"></i>info@loftyhealthcare.com</li>
                     <li><i class="bx bx-time bx-sm"></i>8:00am - 5:00pm</li>
-                </ul>    
+                </ul>
             </div>
             <div class="social-media">
                 <h5>Social Media</h5>
@@ -105,14 +111,14 @@
                             <i class="bx bxl-whatsapp bx-md"></i>
                         </a>
                     </li>
-                </ul>   
+                </ul>
             </div>
             <a href="index.html"><img class="footer-logo" src="/images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
-        </div>   
-    </footer> 
+        </div>
+    </footer>
     <attribute class="attribute">
         <p>&copy; 2023. Lofty HealthCare. All rights reserved.| Powered by <a class="aurora" href="https://www.auroradigitalsolutions.ng">Aurora Digital Solutions</a></p>
-    </attribute> 
+    </attribute>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="/javascript/app.js"></script>
     <script src="/javascript/server.js"></script>
