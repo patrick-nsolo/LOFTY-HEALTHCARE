@@ -856,7 +856,7 @@ select{
 }
 .side-nav ul{
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
 .side-nav li{
     padding: 10px;
@@ -876,4 +876,6 @@ select{
 }
 .left-nav li{
     color: var(--white);
+    display: flex;
+    align-items: center;
 }
