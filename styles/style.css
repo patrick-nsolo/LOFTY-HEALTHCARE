@@ -854,6 +854,13 @@ select{
     background-color: var(--medicalblue);
     width: 15%;    
 }
+.side-nav a{
+    padding: 20px;
+    
+}
+.side-nav a img{
+    margin-top: 20px;
+}
 .side-nav ul{
     list-style-type: none;
     padding: 10px;
@@ -879,6 +886,7 @@ select{
     display: flex;
     gap:10px;
     align-items: center;
+    transition:0.5s ease-out;
 }
 .left-nav li:hover{
     background-color: var(--blue);
