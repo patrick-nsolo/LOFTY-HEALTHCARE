@@ -849,6 +849,7 @@ select{
     display: flex;
     margin:0;
     padding:0;
+    color:var(--medicalblue)
 }
 .side-nav{
     background-color: var(--medicalblue);
