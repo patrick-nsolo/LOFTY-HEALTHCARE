@@ -879,3 +879,23 @@ select{
     display: flex;
     align-items: center;
 }
+.greeting{
+    border:1px solid var(--grey);
+    margin-top:50px;
+    padding: 20px;
+}
+.user-pic{
+    display: flex;
+    justify-content: ;
+    gap:50px;
+    margin-top: 50px;
+}
+.user-pic ul {
+    list-style: none;
+    
+}
+.user-pic ul li{
+    padding:10px;
+    border: 1px solid var(--grey)
+    
+}
