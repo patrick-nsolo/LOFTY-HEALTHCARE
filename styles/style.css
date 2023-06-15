@@ -854,3 +854,7 @@ select{
     background-color: var(--medicalblue);
     width: 15%;    
 }
+.side-nav ul{
+    list-style-type: none;
+    padding: 0;
+}
