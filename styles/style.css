@@ -880,13 +880,14 @@ select{
     align-items: center;
 }
 .greeting{
-    border:1px solid var(--grey);
-    margin-top:50px;
+    
+    margin-tp:50px;
     padding: 20px;
 }
 .user-pic{
     display: flex;
     justify-content: ;
+    border:1px solid var(--grey);
     gap:50px;
     margin-top: 50px;
 }
