@@ -850,3 +850,7 @@ select{
     margin:0;
     padding:0;
 }
+.side-nav{
+    background-color: var(--medicalblue);
+    width: 15%;    
+}
