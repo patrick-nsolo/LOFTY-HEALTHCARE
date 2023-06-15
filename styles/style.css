@@ -865,3 +865,12 @@ select{
 .profile-page{
     width:85%;
 }
+.top-bar{
+    display: flex;
+    justify-content: right;
+    gap:20px;
+    list-style: none;
+    background: var(--grey);
+    height:50px;
+    align-items: center;
+}
