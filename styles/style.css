@@ -877,26 +877,53 @@ select{
 .left-nav li{
     color: var(--white);
     display: flex;
+    gap:10px;
     align-items: center;
 }
+.left-nav li:hover{
+    background-color: var(--blue);
+}
 .greeting{
-    
-    margin-tp:50px;
     padding: 20px;
 }
 .user-pic{
     display: flex;
-    justify-content: ;
     border:1px solid var(--grey);
     gap:50px;
     margin-top: 50px;
 }
 .user-pic ul {
-    list-style: none;
-    
+    list-style: none;    
 }
 .user-pic ul li{
     padding:10px;
-    border: 1px solid var(--grey)
-    
+      
+}
+#user-photo{
+    width:200px;
+    border: 1px solid var(--grey);
+}
+.user-pic .user-info{
+    display: flex;
+}
+.cv{
+    border:1px solid var(--grey);
+    height:130px;   
+}
+.cv ul{
+    list-style: none;
+    padding: 20px;
+}
+.cv ul li a{
+    text-decoration: none;
+    color: var(--white);
+    background: var(--medicalblue);
+    padding: 14px 32px;
+    display: inline-block;
+    margin-top: 0;
+    transition:0.5s ease-out;
+    margin-top: 40px;
+}
+.cv ul li a:hover{
+    background-color: var(--blue);
 }
