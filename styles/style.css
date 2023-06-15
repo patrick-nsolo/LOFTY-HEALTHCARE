@@ -862,3 +862,6 @@ select{
     padding: 10px;
     cursor: pointer;
 }
+.profile-page{
+    width:85%;
+}
