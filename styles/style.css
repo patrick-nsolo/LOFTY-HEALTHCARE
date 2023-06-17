@@ -899,7 +899,7 @@ select{
     display: flex;
     border:1px solid var(--grey);
     gap:50px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .user-pic ul {
     list-style: none;    
@@ -923,7 +923,7 @@ select{
     list-style: none;
     padding: 20px;
 }
-.cv ul li a{
+.cv ul li a, .edit-btn, .save-btn{
     text-decoration: none;
     color: var(--white);
     background: var(--medicalblue);
