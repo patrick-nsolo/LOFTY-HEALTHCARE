@@ -933,6 +933,6 @@ select{
     transition:0.5s ease-out;
     margin-top: 40px;
 }
-.cv ul li a:hover{
+.cv ul li a:hover, .edit-btn:hover, .save-btn:hover{
     background-color: var(--blue);
 }
