@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <link type="text/css" rel="stylesheet" href="../styles/style.css">
-    <link type="text/css" rel="stylesheet" href="../styles/nav.css">
-    <link type="text/css" rel="stylesheet" href="../styles/trans.css">
-    <link rel="stylesheet" href="../boxicons-2.1.4/css/boxicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/nav.css">
+    <link type="text/css" rel="stylesheet" href="styles/trans.css">
+    <link rel="stylesheet" href="boxicons-2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
     <title>Lofty Healthcare Website</title>
 </head>
@@ -19,7 +19,7 @@
     <header>
         <div class="container">
             <nav class="navbar">
-                <a href="/index.html" title="This link takes you to lofty logo home page" class="slide-in-left"><img class="logo" src="/images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
+                <a href="/index.html" title="This link takes you to lofty logo home page" class="slide-in-left"><img class="logo" src="images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
                 <ul class="menu">
                     <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Our Clients</a></li>
@@ -40,7 +40,7 @@
     <hr class="line">
     <section class="container">
         <div class="contact">
-            <img src="/images/lhcstaff.png" class="contact-hero" alt="a-picture-depicting-lofty-staff-members"/>
+            <img src="images/lhcstaff.png" class="contact-hero" alt="a-picture-depicting-lofty-staff-members"/>
         </div>
         <div class="contact-message">
             <h1 class="slide-in-right">Join our excellent work force.</h1>
@@ -200,15 +200,15 @@
                     </li>
                 </ul>
             </div>
-            <a href="index.html"><img class="footer-logo" src="/images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
+            <a href="index.html"><img class="footer-logo" src="images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
         </div>
     </footer>
     <attribute class="attribute">
         <p>&copy; 2023. Lofty HealthCare. All rights reserved.| Powered by <a class="aurora" href="https://www.auroradigitalsolutions.ng">Aurora Digital Solutions</a></p>
     </attribute>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="/javascript/app.js"></script>
-    <script src="/javascript/server.js"></script>
-    <script src="/javascript/route.js"></script>
+    <script src="javascript/app.js"></script>
+    <script src="javascript/server.js"></script>
+    <script src="javascript/route.js"></script>
 </body>
 </html>

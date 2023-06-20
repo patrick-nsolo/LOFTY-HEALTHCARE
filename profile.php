@@ -1,3 +1,26 @@
+
+<?php
+session_start();
+if (isset($_SESSION["userid"]) == false) {
+  header("Location: login.php?error=pleaselogin");
+}
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,13 +43,13 @@
             <nav class="navbar">
                 <a href="index.html" title="This link takes you to lofty logo home page" class="slide-in-left"><img class="logo" src="images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
                 <ul class="menu">
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Our Clients</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Our Team</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="login.html" class="btn nav-link button">Login</a></li>
-                    <li class="nav-item"><a href="register.html" class="btn nav-link button reg-btn">Register</a></li>
+                    <!-- <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="clients.html" class="nav-link">Our Clients</a></li>
+                    <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li> -->
+                    <li class="nav-item"><a href="includes/logout.inc.php" class="btn nav-link button">Logout</a></li>
+                    <li class="nav-item"><a href="" class="btn nav-link button reg-btn">Help</a></li>
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -37,50 +60,66 @@
         </div>
     </header>
     <hr class="line">
-    <section id="login-form">
-        <form class="login-form" method="post" action="includes/login.inc.php">
-            <?php
-            // Check if an error message is present in the URL query parameters
-            if (isset($_GET['error']) && $_GET['error'] === 'none') {
-                echo '<p style="color:green">Registration successful!</p>';
-             }
-            ?>
-            <h2>Login</h2>
-
-            <?php
-            // Check if an error message is present in the URL query parameters
-            if (isset($_GET['error']) && $_GET['error'] === 'usernotfound') {
-                echo '<p style="color:red">User does not exist!</p>';
-             }
-
-            if (isset($_GET['error']) && $_GET['error'] === 'wrongpassword') {
-                 echo '<p style="color:red">Password is not correct!</p>';
-              }
-
-            if (isset($_GET['error']) && $_GET['error'] === 'usernotfoundagain') {
-                 echo '<p style="color:red">Username or password is not correct!</p>';
-              }
-            ?>
-
-            <div class="names-section">
-                <div class="form-tip">
-                    <label for="user-name">User Name:</label>
-                    <input type="text" id="user-name" name="user-name" required>
+    <div class="profile-page-container">
+        <section class="side-nav">
+            <a href="#"><img src="images/LOFTY-HEALTH-CARE-BRAND-LOGO-WHITE.png" alt="lofty-healthcare-logo" width="150px"></a>
+            <nav>
+                <ul class="left-nav">
+                    <li><i class="bx bxs-dashboard bx-sm"></i>DashBoard</li>
+                    <li><i class="bx bx-user-circle bx-sm"></i>User Profile</li>
+                    <li><i class="bx bx-briefcase bx-sm"></i>Jobs</li>
+                    <li><i class="bx bx-cog bx-sm"></i>Settings</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="profile-page">
+            <div class="top-bar">
+                <li><i class="bx bxs-bell bx-sm"></i></li>
+                <li> <?php echo $_SESSION["username"]?> </li>
+                <li><img class="user-pic"></li>
+            </div>
+            <div class="greeting">
+                <h1>Welcome, <?php echo $_SESSION["username"]?></h1>
+                <div class="user-pic">
+                    <div class="profile-picture">
+                        <img id="user-photo" src="images/image-placeholder.jpg" alt="User Photo">
+                    </div>
+                    <div class="User-info">
+                        <ul>
+                            <li><strong>User Name:</strong> <span id="user-name"><?php echo $_SESSION["username"]?></span></li>
+                            <li><strong>First Name:</strong> <span id="first-name"><?php echo $_SESSION["firstname"]?></span></li>
+                            <li><strong>Surname:</strong> <span id="surname"><?php echo $_SESSION["surname"]?></span></li>
+                            <li><strong>Gender:</strong> <span id="gender"><?php echo $_SESSION["gender"]?></span></li>
+                            <li><strong>Email:</strong> <span id="email"><?php echo $_SESSION["email"]?></span></li>
+                        </ul>
+                        <ul>
+                            <li><strong>Phone:</strong> <span id="phone"><?php echo $_SESSION["phone"]?></span></li>
+                            <li><strong>Address:</strong> <span id="address"><?php echo $_SESSION["address"]?></span></li>
+                            <li><strong>Profession:</strong> <span id="profession"><?php echo $_SESSION["profession"]?></span></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="form-tip">
-                    <label for="Password">Password:</label>
-                    <input type="text" id="password" name="password" required>
+                <div class="cv">
+                    <ul>
+                        <li><strong>CV:</strong> <a href="#" id="cv-link">View CV</a></li>
+                    </ul>
+                </div>
+                <div class="profile-btns">
+                    <a class="edit-btn" href="#">Edit Profile</a>
+                    <a class="save-btn" href="#">Save</a>
                 </div>
             </div>
-            <button type="submit" class="login-btn" name="submit">Submit</button>
-            <div class="login-links">
-                <a href="#">forgot password?</a>
-                <a href="register.html">New to LHC? Sign up</a>
-            </div>
-        </form>
+        </section>
+    </div>
 
-    </section>
-    <footer>
+
+
+
+
+
+
+
+    <!--<footer>
         <div class="footer">
             <div class="page-links">
                 <h5>Important Links</h5>
@@ -129,15 +168,15 @@
                     </li>
                 </ul>
             </div>
-            <a href="index.html"><img class="footer-logo" src="images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
+            <a href="index.html"><img class="footer-logo" src="/images/lofty-logo.png" alt="lofty-healthcare-logo"></a>
         </div>
-    </footer>
+    </footer> -->
     <attribute class="attribute">
         <p>&copy; 2023. Lofty HealthCare. All rights reserved.| Powered by <a class="aurora" href="https://www.auroradigitalsolutions.ng">Aurora Digital Solutions</a></p>
     </attribute>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="javascript/app.js"></script>
-    <script src="javascript/server.js"></script>
-    <script src="javascript/route.js"></script>
+    <script src="/javascript/server.js"></script>
+    <script src="/javascript/route.js"></script>
 </body>
 </html>
