@@ -25,19 +25,29 @@ $cvTmpName = $_FILES['cv']['tmp_name'];
 $pictureFileName = $_FILES['picture']['name'];
 $pictureTmpName = $_FILES['picture']['tmp_name'];
 // Move uploaded files to a directory
-$uploadDir = 'uploads/';
+$uploadDir = '../uploads/';
 $cvFilePath = $uploadDir . $cvFileName;
 $pictureFilePath = $uploadDir . $pictureFileName;
+
+if (move_uploaded_file($cvTmpName, $cvFilePath) == false || move_uploaded_file($pictureTmpName, $pictureFilePath) == false) {
+  header("Location: ../register.php?error=unabletoupload");
+  exit();
+}
 
 // instantiate RegisterContr class
 include "../classes/dbh.classes.php";
 include "../classes/register.classes.php";
+include "../classes/fileuploader.classes.php";
 include "../classes/register-contr.classes.php";
 $register = new RegisterContr($userName, $password, $confirmPassword, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession);
+
+
 
 // run error handlers and register users
 
 $register->registerUser();
+
+// uplaod file and run error handlers
 
 // send mail
 

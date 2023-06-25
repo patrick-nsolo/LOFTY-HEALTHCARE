@@ -60,6 +60,10 @@
             if (isset($_GET['error']) && $_GET['error'] === 'usernotfoundagain') {
                  echo '<p style="color:red">Username or password is not correct!</p>';
               }
+
+            if (isset($_GET['error']) && $_GET['error'] === 'unabletoupload') {
+                 echo '<p style="color:red">File upload failed!</p>';
+              }
             ?>
 
             <div class="names-section">

@@ -37,15 +37,15 @@ class RegisterContr extends Register
   public function registerUser() {
     if ($this->invalidEmail() == false) {
       header("Location: ../register.php?error=invalidemail");
-      exit;
+      exit();
     }
     if ($this->pwdMatch() == false) {
       header("Location: ../register.php?error=passwordnotmatch");
-      exit;
+      exit();
     }
     if ($this->userNameTaken() == false) {
       header("Location: ../register.php?error=usernameexists");
-      exit;
+      exit();
     }
 
     $this->setUser($this->userName, $this->password, $this->firstName, $this->surname, $this->gender, $this->email, $this->countryCode, $this->phoneNumber, $this->address, $this->profession);
