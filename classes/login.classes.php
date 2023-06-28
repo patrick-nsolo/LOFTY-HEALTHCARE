@@ -54,10 +54,12 @@ class Login extends Dbh
       $_SESSION["surname"] = $user[0]["users_surname"];
       $_SESSION["gender"] = $user[0]["users_gender"];
       $_SESSION["email"] = $user[0]["users_email"];
+      $_SESSION["countrycode"] = $user[0]["users_countrycode"];
       $_SESSION["phone"] = $user[0]["users_phonenumber"];
       $_SESSION["profession"] = $user[0]["users_profession"];
       $_SESSION["address"] = $user[0]["users_address"];
-
+      $_SESSION["cv"] = $user[0]["users_cv"];
+      $_SESSION["pic"] = $user[0]["users_pic"];
 
       $stmt = null;
     }

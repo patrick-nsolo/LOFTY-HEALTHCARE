@@ -7,12 +7,12 @@ class Register extends Dbh
 {
 
   // signup user
-  protected function setUser($userName, $password, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession) {
-    $stmt = $this->connect()->prepare('INSERT INTO users (users_username, users_password, users_firstname, users_surname, users_gender, users_email, users_countrycode, users_phonenumber, users_address, users_profession) VALUES (?,?,?,?,?,?,?,?,?,?);');
+  protected function setUser($userName, $password, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession, $cvFilePath, $pictureFilePath) {
+    $stmt = $this->connect()->prepare('INSERT INTO users (users_username, users_password, users_firstname, users_surname, users_gender, users_email, users_countrycode, users_phonenumber, users_address, users_profession, users_cv, users_pic) VALUES (?,?,?,?,?,?,?,?,?,?,?,?);');
 
     $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 
-    if (!$stmt->execute(array($userName, $hashedPwd, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession))) {
+    if (!$stmt->execute(array($userName, $hashedPwd, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession, $cvFilePath, $pictureFilePath))) {
       $stmt = null;
       header("Location: ../register.php?error=stmtfailed");
       exit();
@@ -45,6 +45,4 @@ class Register extends Dbh
 
 
 
-
-
- ?>
+?>

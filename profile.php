@@ -86,31 +86,30 @@ if (isset($_SESSION["userid"]) == false) {
                 <h1>Welcome, <?php echo $_SESSION["username"]?></h1>
                 <div class="user-pic">
                     <div class="profile-picture">
-                        <img id="user-photo" src="images/image-placeholder.jpg" alt="User Photo">
+                        <img id="user-photo" src="uploads/<?php echo $_SESSION["pic"]?>" alt="User Photo">
                     </div>
                     <div class="User-info">
                         <ul>
-                            <li><strong>User Name:</strong> <span id="user-name"><?php echo $_SESSION["username"]?></span></li>
-                            <li><strong>First Name:</strong> <span id="first-name"><?php echo $_SESSION["firstname"]?></span></li>
-                            <li><strong>Surname:</strong> <span id="surname"><?php echo $_SESSION["surname"]?></span></li>
-                            <li><strong>Gender:</strong> <span id="gender"><?php echo $_SESSION["gender"]?></span></li>
-                            <li><strong>Email:</strong> <span id="email"><?php echo $_SESSION["email"]?></span></li>
+                            <li><strong>User Name:</strong> <span id="user-name"><?php echo $_SESSION["username"];?></span></li>
+                            <li><strong>First Name:</strong> <span id="first-name"><?php echo $_SESSION["firstname"];?></span></li>
+                            <li><strong>Surname:</strong> <span id="surname"><?php echo $_SESSION["surname"];?></span></li>
+                            <li><strong>Gender:</strong> <span id="gender"><?php echo $_SESSION["gender"];?></span></li>
+                            <li><strong>Email:</strong> <span id="email"><?php echo $_SESSION["email"];?></span></li>
                         </ul>
                         <ul>
-                            <li><strong>Phone:</strong> <span id="phone"><?php echo $_SESSION["phone"]?></span></li>
-                            <li><strong>Address:</strong> <span id="address"><?php echo $_SESSION["address"]?></span></li>
-                            <li><strong>Profession:</strong> <span id="profession"><?php echo $_SESSION["profession"]?></span></li>
+                            <li><strong>Phone:</strong> <span id="phone"><?php echo $_SESSION["phone"];?></span></li>
+                            <li><strong>Address:</strong> <span id="address"><?php echo $_SESSION["address"];?></span></li>
+                            <li><strong>Profession:</strong> <span id="profession"><?php echo $_SESSION["profession"];?></span></li>
                         </ul>
                     </div>
                 </div>
                 <div class="cv">
                     <ul>
-                        <li><strong>CV:</strong> <a href="#" id="cv-link">View CV</a></li>
+                        <li><strong>CV:</strong> <a href="uploads/<?php echo $_SESSION["cv"]?>" id="cv-link">View CV</a></li>
                     </ul>
                 </div>
                 <div class="profile-btns">
-                    <a class="edit-btn" href="#">Edit Profile</a>
-                    <a class="save-btn" href="#">Save</a>
+                    <a class="edit-btn" href="update.php?updateid=<?php echo $_SESSION["userid"]?>">Edit Profile</a>
                 </div>
             </div>
         </section>

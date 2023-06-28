@@ -19,27 +19,30 @@ $countryCode = $_POST['countryCode'];
 $phoneNumber = $_POST['phoneNumber'];
 $address = $_POST['address'];
 $profession = $_POST['profession'];
-// File upload handling
 $cvFileName = $_FILES['cv']['name'];
-$cvTmpName = $_FILES['cv']['tmp_name'];
 $pictureFileName = $_FILES['picture']['name'];
-$pictureTmpName = $_FILES['picture']['tmp_name'];
-// Move uploaded files to a directory
-$uploadDir = '../uploads/';
-$cvFilePath = $uploadDir . $cvFileName;
-$pictureFilePath = $uploadDir . $pictureFileName;
-
-if (move_uploaded_file($cvTmpName, $cvFilePath) == false || move_uploaded_file($pictureTmpName, $pictureFilePath) == false) {
-  header("Location: ../register.php?error=unabletoupload");
-  exit();
+// File upload handling
+ $cvTmpName = $_FILES['cv']['tmp_name'];
+// $pictureFileName = $_FILES['picture'];
+ $pictureTmpName = $_FILES['picture']['tmp_name'];
+// // Move uploaded files to a directory
+ $uploadDir = '../uploads/';
+ $cvFilePath = $uploadDir . $cvFileName;
+ $pictureFilePath = $uploadDir . $pictureFileName;
+//
+ if (move_uploaded_file($cvTmpName, $cvFilePath) == false || move_uploaded_file($pictureTmpName, $pictureFilePath) == false) {
+   header("Location: ../register.php?error=unabletoupload2");
+   exit();
 }
 
-// instantiate RegisterContr class
+
 include "../classes/dbh.classes.php";
 include "../classes/register.classes.php";
-include "../classes/fileuploader.classes.php";
+// include "../classes/fileuploader.classes.php";
 include "../classes/register-contr.classes.php";
-$register = new RegisterContr($userName, $password, $confirmPassword, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession);
+
+// instantiate RegisterContr class
+$register = new RegisterContr($userName, $password, $confirmPassword, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession, $cvFilePath, $pictureFilePath);
 
 
 
@@ -49,6 +52,9 @@ $register->registerUser();
 
 // uplaod file and run error handlers
 
+// $upload = new FileUploader();
+// $upload->handleFileUpload('cv');
+// $upload->handleFileUpload('picture');
 // send mail
 
 //Load Composer's autoloader

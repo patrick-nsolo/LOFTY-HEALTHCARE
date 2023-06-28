@@ -28,15 +28,11 @@ class FileUploader {
 
             // Move the uploaded file to the desired location
             $destinationPath = '../uploads/' . $uniqueFileName;
-            if (move_uploaded_file($fileTmpPath, $destinationPath)) {
-                return 'File uploaded successfully.';
-            } else {
-              header("Location: ../register.php?error=unabletoupload1");
-              exit();
+            if (!move_uploaded_file($fileTmpPath, $destinationPath)) {
+                //echo 'File uploaded successfully.';
+                header("Location: ../register.php?error=unabletomovefile");
+                exit();
             }
-        } else {
-          header("Location: ../register.php?error=unabletoupload2");
-          exit();
         }
     }
 

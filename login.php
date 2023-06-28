@@ -49,8 +49,8 @@
 
             <?php
             // Check if an error message is present in the URL query parameters
-            if (isset($_GET['error']) && $_GET['error'] === 'usernotfound') {
-                echo '<p style="color:red">User does not exist!</p>';
+            if (isset($_GET['error']) && $_GET['error'] === 'invalidemail') {
+                echo '<p style="color:red">Enter a valid email!</p>';
              }
 
             if (isset($_GET['error']) && $_GET['error'] === 'wrongpassword') {
@@ -73,7 +73,7 @@
                 </div>
                 <div class="form-tip">
                     <label for="Password">Password:</label>
-                    <input type="text" id="password" name="password" required>
+                    <input type="password" id="password" name="password" required>
                 </div>
             </div>
             <button type="submit" class="login-btn" name="submit">Submit</button>
