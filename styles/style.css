@@ -8,7 +8,7 @@
 }
 img{
     max-inline-size: 100%;
-    block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/ 
+    block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/
 }
 body{
     width: 100%;
@@ -39,7 +39,7 @@ body{
 }
 .content .slides{
     width:100%;
-    
+
 }
 .content .slides::before{
     content:"";
@@ -78,7 +78,7 @@ body{
     transition:0.5s ease-out;
 }
 .image-overlay a:hover{
-    background: var(--blue);    
+    background: var(--blue);
 }
 .swiper-btn{
     background: rgba(0,0,0,0.3);
@@ -106,7 +106,7 @@ body{
 .about-text{
     text-align: center;
     margin-top: 40px;
-    
+
 }
 .about-text h2{
     color:var(--medicalblue);
@@ -131,12 +131,12 @@ body{
     background: var(--blue);
 }
 #why-us{
-    background-image: url(/images/why-background.png);
+    background-image: url(../images/why-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height:600px;
-    padding: 150px;   
+    padding: 150px;
 }
 .why-us-text h2{
     font-size: 2.5rem;
@@ -264,7 +264,7 @@ footer{
         margin-top: 50px;
         height:700px;
         margin-bottom: 50px;
-        
+
     }
     .about{
         display:inline-block;
@@ -288,8 +288,8 @@ footer{
         font-size: 1.5rem;
     }
     #why-us{
-        padding: 50px;  
-        height:450px; 
+        padding: 50px;
+        height:450px;
     }
     .why-us-text h2{
         font-size: 1.5rem;
@@ -464,7 +464,7 @@ footer{
         display: inline-block;
     }
     .card{
-        width:300px;    
+        width:300px;
     }
     .card p{
         font-size: 1rem;
@@ -495,13 +495,13 @@ footer{
 /*REGISTRATION PAGE STYLE*/
 .form{
     margin-top: 50px;
-    background-image: linear-gradient(to right, var(--medicalblue) , var(--deepmedicalblue));     
+    background-image: linear-gradient(to right, var(--medicalblue) , var(--deepmedicalblue));
     padding:40px 100px;
     text-align: cnter;
 }
 .form h2{
     font-size:2rem;
-    color: var(--white);   
+    color: var(--white);
 }
 label{
     display: block;
@@ -542,14 +542,14 @@ select{
     }
     input{
         width:320px;
-    }    
+    }
 }
 /*LOGIN FORM STYLE*/
 #login-form{
     display: flex;
     justify-content: center;
     height: 400px;
-    background-image: url(/images/why-background.png);
+    background-image: url(../images/why-background.png);
     padding: 20px 50px;
 }
 .login-form{
@@ -595,10 +595,10 @@ select{
 .about-lhc-image{
     position: relative;
     display: inline-block;
-    width: 100%; 
+    width: 100%;
 }
 .about-lhc-image img{
-    width: 100%;    
+    width: 100%;
 }
 .about-lhc-text{
     background: var(--white);
@@ -629,12 +629,12 @@ select{
 .values-image {
     display: flex;
     justify-content: center;
-    position: relative; 
-    align-items: flex-end;  
-    margin-top: 50px; 
+    position: relative;
+    align-items: flex-end;
+    margin-top: 50px;
 }
 .values-image img{
-    height:300px;   
+    height:300px;
 }
 .value-cards{
     display: flex;
@@ -644,7 +644,7 @@ select{
     left:0;
     align-items: flex-end;
     width: 100%;
-    gap:50px;   
+    gap:50px;
 }
 .value-card{
     width: 300px;
@@ -680,9 +680,9 @@ select{
     opacity: 0;
     cursor: pointer;
     height: 0;
-    width: 0;    
-    
-        
+    width: 0;
+
+
 }
 @media(max-width:760px){
     .about-lhc-text{
@@ -699,19 +699,19 @@ select{
         padding: 20px;
         margin-top: 0;
         line-height: 20px;
-    } 
+    }
     .values{
         margin-top: 400px;
-    } 
+    }
     #mission-and-vision{
         display: inline-block;
         padding:0;
-    }  
+    }
     .mission-and-vision img{
         width:300px;
         text-align: center;
         margin-left: 40px;
-        
+
         margin-top: 200px;
     }
     .mission-and-vision-text{
@@ -784,7 +784,7 @@ select{
     padding: 50px;
 }
 .lhc-clients-text-one img{
-    width:500px;   
+    width:500px;
 }
 .lhc-clients-text-two{
     position: relative;
@@ -802,7 +802,7 @@ select{
     padding: 50px;
 }
 .lhc-clients-text-two img{
-    width:500px;   
+    width:500px;
 }
 @media(max-width:760px){
     .carousel{
@@ -813,7 +813,7 @@ select{
         gap:10px;
     }
     .lhc-clients-text-one img, .lhc-clients-text-two img{
-        width:300px;   
+        width:300px;
     }
     .lhc-clients-text-one p{
         top: 70%;
@@ -844,12 +844,14 @@ select{
 }
 
 
+
 /*USER PROFILE STYLING STARTS*/
+
 .profile-page-container{
     display: flex;
     margin:0;
     padding:0;
-    color:var(--medicalblue)
+    color:var(--medicalblue);
 }
 .side-nav{
     background-color: var(--medicalblue);
@@ -858,6 +860,9 @@ select{
 .side-nav a{
     padding: 20px;
     
+}
+.side-nav a{
+    padding: 20px;
 }
 .side-nav a img{
     margin-top: 20px;
@@ -906,7 +911,6 @@ select{
 }
 .user-pic ul li{
     padding:10px;
-      
 }
 #user-photo{
     width:200px;

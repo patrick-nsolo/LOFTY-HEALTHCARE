@@ -17,9 +17,10 @@ class RegisterContr extends Register
   private $phoneNumber;
   private $address;
   private $profession;
-
+  private $cvFilePath;
+  private $pictureFilePath;
   // initialize the properties and assign their values
-  public function __construct($userName, $password, $confirmPassword, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession) {
+  public function __construct($userName, $password, $confirmPassword, $firstName, $surname, $gender, $email, $countryCode, $phoneNumber, $address, $profession, $cvFilePath, $pictureFilePath) {
     $this->userName = $userName;
     $this->password = $password;
     $this->confirmPassword = $confirmPassword;
@@ -31,24 +32,25 @@ class RegisterContr extends Register
     $this->phoneNumber = $phoneNumber;
     $this->address = $address;
     $this->profession = $profession;
-
+    $this->cvFilePath = $cvFilePath;
+    $this->pictureFilePath = $pictureFilePath;
   }
 
   public function registerUser() {
     if ($this->invalidEmail() == false) {
       header("Location: ../register.php?error=invalidemail");
-      exit;
+      exit();
     }
     if ($this->pwdMatch() == false) {
       header("Location: ../register.php?error=passwordnotmatch");
-      exit;
+      exit();
     }
     if ($this->userNameTaken() == false) {
       header("Location: ../register.php?error=usernameexists");
-      exit;
+      exit();
     }
 
-    $this->setUser($this->userName, $this->password, $this->firstName, $this->surname, $this->gender, $this->email, $this->countryCode, $this->phoneNumber, $this->address, $this->profession);
+    $this->setUser($this->userName, $this->password, $this->firstName, $this->surname, $this->gender, $this->email, $this->countryCode, $this->phoneNumber, $this->address, $this->profession, $this->cvFilePath, $this->pictureFilePath);
     }
 
   // check for invalid email
@@ -92,10 +94,4 @@ class RegisterContr extends Register
 }
 
 
-
-
-
-
-
-
- ?>
+?>
